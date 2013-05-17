@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR" > <!--<![endif]-->
+<html>
+<head>
+  <title>Administrador Mirafloris</title>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="O maior complexo de condomínio de Teresina" />
+  <meta name="keywords" content="mirafloris, teresina, maior bairro, condomínio" />
+  <meta name="author" content="	Wings" />
+
+  <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="large-12 columns">
+    <div class="row">
+      <%= yield %>
+    </div>
+</div>
+<%= javascript_include_tag "application" %>
+</body>
+</html>
