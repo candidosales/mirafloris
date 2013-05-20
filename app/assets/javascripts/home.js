@@ -119,5 +119,10 @@
    				console.log('sol');
    			}   				
    		});
+
+   		if($('#error_explanation')){
+   			$('body').scrollTo('#error_explanation', 1000, {offset: {top:-100, left:-30} });
+   		}
+   		
 			
 		
