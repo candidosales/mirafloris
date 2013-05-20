@@ -30,8 +30,13 @@ class ClientsController < ApplicationController
   # POST /clients.json
   def create
     @client = Client.new(params[:client])
-    flash[:notice] = 'Obrigado por se cadastrar!' if @client.save
-    redirect_to :back
+    if @client.save
+      flash[:notice] = 'Obrigado por se cadastrar!' 
+      redirect_to root_path
+    else
+      flash[:error] = @client.errors
+      render :template => "home/index"
+    end
   end
 
   # PUT /clients/1

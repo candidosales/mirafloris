@@ -6,21 +6,21 @@
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 						<div class="sl-slide-inner">
 							<div class="bg-img bg-img-1"></div>
-							<h2>UM NOVO BAIRRO</h2>
+							<h2>NOVO BAIRRO</h2>
 						</div>
 					</div>
 					
 					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 						<div class="sl-slide-inner">
 							<div class="bg-img bg-img-2"></div>
-							<h2>MAIS ACESSÍVEL</h2>
+							<h2>ACESSÍVEL</h2>
 						</div>
 					</div>
 					
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
 							<div class="bg-img bg-img-3"></div>
-							<h2>MELHOR PLANEJADO</h2>
+							<h2>PLANEJADO</h2>
 						</div>
 					</div>
 				</div><!-- /sl-slider -->
@@ -34,7 +34,7 @@
 	</div>
 	<div id="novo-bairro" class="large-12 columns wrapper bg-6 no-padding">
 		<div id="fade-it" class="large-12 columns ">
-			<h2 class="">Um novo bairro <div class="novo-bairro-move"/> </h2>
+			<h2 class="">novo bairro <div class="novo-bairro-move"/> </h2>
 			<div class="large-12 columns content">
 				<figure>
 					<%= image_tag("planta.jpg", :alt => "Planta do empreendimento", :class => 'box-shadow-green empreendimento') %>
@@ -96,7 +96,7 @@
 		<div id="fly-it"  class="large-12 columns">
 			
 			<h2>
-				<strong>MAIS ACESSÍVEL</strong><br/>
+				<strong>ACESSÍVEL</strong><br/>
 				<div class="mais-acessivel-move"/> 
 			<small>Veja a distância para começar seu sonho</small></h2>
 			<div class="content" >
@@ -109,7 +109,7 @@
 	</div>
 	<div class="large-12 columns wrapper bg-6 no-padding">
 		<div id="fade-it-1" class="large-12 columns ">
-			<h2 ><strong>MAIS PLANEJADO</strong><br/>
+			<h2 ><strong>PLANEJADO</strong><br/>
 				<div class="mais-planejado-move"/> 
 				<small>Não faltará nada!</small></h2>
 			<div class="large-12 columns content">
@@ -146,7 +146,8 @@
 				<small>Cadastre-se e receba as novidades sobre quando começar seu sonho</small>
 			</h2>
 			<div class="large-12 columns content">
-				 <%= form_for(Client.new, :html => {:class => 'custom row' } ) do |f| %>
+				 <%= form_for(@client, :html => {:class => 'custom row' } ) do |f| %>
+				 <%= error_messages_for @client %>
 
 				  <div class="row">
 				  	 <div class="large-12 columns">

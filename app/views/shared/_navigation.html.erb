@@ -11,11 +11,11 @@
                 <!-- Left Nav Section -->
                 <ul class="left">
                   <li class="divider"></li>
-                  <li class="active novo-bairro"><a href="#">UM NOVO BAIRRO</a></li>
+                  <li class="active novo-bairro"><a href="#">NOVO BAIRRO</a></li>
                   <li class="divider"></li>
-                  <li class="mais-acessivel" ><a href="#">MAIS ACESSÍVEL</a></li>
+                  <li class="mais-acessivel" ><a href="#">ACESSÍVEL</a></li>
                   <li class="divider"></li>
-                  <li class="mais-planejado" ><a href="#">MELHOR PLANEJADO</a></li>
+                  <li class="mais-planejado" ><a href="#">PLANEJADO</a></li>
                   <li class="divider"></li>
                   <li class="saiba-mais" ><a href="#">SAIBA MAIS</a></li>
                   <li class="divider"></li>
@@ -25,4 +25,14 @@
               </section>
         </nav>
         </div>
+  </div>
+  <div class="large-12 columns message">
+       <% flash.each do |name, msg| %>
+        <% if msg.is_a?(String) %>
+          <div id="flash_<%= name %>" data-alert class="alert-box">
+           <a href="#" class="close">&times;</a>
+          <%= msg %>
+        </div>
+        <% end %>
+      <% end %>
   </div>
