@@ -1,7 +1,7 @@
 
     $(document).foundation();
 
-    $('#aviso').foundation('reveal', 'open');
+    //$('#aviso').foundation('reveal', 'open');
 
     	$(function() {
 			
@@ -105,7 +105,19 @@
 			  }, 100);
 		});
 
-		$("#client_cpf").mask("999.999.999-99");
+		$("#client_cpf, #client_conjugue_cpf").mask("999.999.999-99");
    		$("#client_telefone").mask("(99)9999-9999");
+
+   		$('.conjugue').hide();
+
+   		$('.estado_civil').change(function(){
+   			if($(this).val() == 'casado'){
+   				$('.conjugue').fadeIn();
+   				console.log('cas');
+   			}else{
+   				$('.conjugue').fadeOut();
+   				console.log('sol');
+   			}   				
+   		});
 			
 		

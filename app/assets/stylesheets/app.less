@@ -173,6 +173,11 @@ h4{
 			&.custom .custom.radio{
 				margin: 0 4% 2% 0;
 			}
+			h4{
+				font-size: 140%;
+				color: #fff;
+				margin: 4% 0 1% 0;
+			}
 		}
 	}
 }
@@ -290,3 +295,49 @@ h4{
 /****** Scroller ******/ 
 
 #fly-it { position: relative; }
+
+
+/****** Admin ******/ 
+.admin{
+	.top-bar{
+		background: #115a0c;
+	}
+	.top-bar-section ul li > a, .top-bar-section ul li.active > a, .top-bar-section li a:not(.button){
+		background: #115a0c;
+	}
+
+	table{
+		.cliente, .conjug, .acoes{
+			color: #fff;
+			font-size:120%;
+		}
+		.cliente{
+			background: #16A085;
+		}
+		.conjug{
+			background: #27AE60;
+		}
+		.conjug-2{
+			background: #2ECC71;
+		}
+		.acoes{
+			background: #2980B9;
+		}
+		tr{
+			&:hover{
+				background: #f3f6e7;
+			}
+			a{
+				color: #2980B9;
+				text-decoration: underline;
+				&:hover{
+				
+				}
+				&.button{
+					text-decoration: none;
+					color:#fff;
+				}
+			}
+		}
+	}
+}

@@ -1,29 +1,57 @@
-<h1>Listing clients</h1>
+<h1>Listagem</h1>
 
 <table>
   <tr>
-    <th>Name</th>
+    <th class="cliente" colspan="9">
+      Cliente
+    </th>
+    <th class="conjug" colspan="4">
+      Cônjugue
+    </th>
+    <th class="acoes" colspan="2">
+      Ações
+    </th>
+  </tr>
+  <tr>
+    <th>Nome</th>
+    <th>CPF</th>
     <th>Email</th>
+    <th>Idade</th>
+    <th>Sexo</th>
     <th>Cidade</th>
     <th>Telefone</th>
-    <th></th>
+    <th>Renda</th>
+    <th>Civil</th>
+    <th>Nome</th>
+    <th>CPF</th>
+    <th>Email</th>
+    <th>Sexo</th>
     <th></th>
     <th></th>
   </tr>
 
 <% @clients.each do |client| %>
   <tr>
-    <td><%= client.nome %></td>
+    <td><%= link_to client.nome, [:admin, client]  %></td>
+    <td><%= client.cpf %></td>
     <td><%= client.email %></td>
+    <td><%= client.idade %></td>
+    <td><%= client.sexo == 'm' ? 'Masculino' : 'Feminino' %></td>
     <td><%= client.cidade %></td>
     <td><%= client.telefone %></td>
-    <td><%= link_to 'Show', [:admin, client] %></td>
-    <td><%= link_to 'Edit', edit_admin_client_path(client) %></td>
-    <td><%= link_to 'Destroy', client, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= client.renda_familiar %></td>
+    <td><%= client.estado_civil %></td>
+
+    <td><%= client.conjugue_nome %></td>
+    <td><%= client.conjugue_cpf %></td>
+    <td><%= client.conjugue_email %></td>
+    <td><%= client.conjugue_sexo == 'm' ? 'Masculino' : 'Feminino' %></td>
+    <td><%= link_to 'Editar', edit_admin_client_path(client) , :class => "button round"%></td>
+    <td><%= link_to 'Deletar', client, method: :delete, data: { confirm: 'Você tem certeza?' }, :class => 'button alert round' %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Client', new_admin_client_path %>
+<%= link_to 'Novo Cliente', new_admin_client_path, :class => 'button success round' %>

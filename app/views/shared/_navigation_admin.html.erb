@@ -1,0 +1,35 @@
+<div class="large-12 columns no-padding">
+    <nav class="top-bar">
+      
+             <ul class="title-area">
+                <!-- Title Area -->
+                <li class="name">
+                  <h1><a href="/admin">Admin Mirafloris </a></h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+              </ul>
+
+              <section class="top-bar-section">
+                <!-- Left Nav Section -->
+                <% if user_signed_in? %>
+                <ul class="left">
+                  <li class="divider"></li>
+                  <li class="active novo-bairro"><a href="/admin/clients">Clientes</a></li>
+                  <li class="divider"></li>
+                </ul>
+                  
+                <ul class="right">
+                  <li class="divider hide-for-small"></li>
+                    <li class="has-dropdown"><a href="#">Configurações</a>
+                      <ul class="dropdown">
+                        <li> <%= link_to('Editar conta', edit_user_registration_path) %></li>
+                        <li> <%= link_to('Sair', destroy_user_session_path, :method=>'delete') %></li>
+                      </ul>
+                
+                  <li class="divider"></li>
+                </ul>
+                <% end %>
+              </section>
+        </nav>
+  </div>

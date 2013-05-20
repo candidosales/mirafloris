@@ -12,8 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
@@ -28,6 +28,6 @@
     <%= f.text_field :telefone %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Novo cliente', :class => 'button success round' %>
   </div>
 <% end %>
