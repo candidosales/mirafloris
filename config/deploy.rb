@@ -46,7 +46,6 @@ end
 task :install_enviroment do
     invoke :dev_tools
     invoke :git
-    invoke :mysql
     invoke :ruby
     invoke :update_gem
     invoke :bundler
@@ -63,12 +62,14 @@ end
 
 task :dev_tools do
   print_str "-----> Instalar Development Tools"
-  queue "sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion nodejs -y"
+  queue "sudo apt-get install dialog build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion nodejs -y"
 end
 
 task :git do
   print_str "-----> Instalar Git"
   queue "sudo apt-get install git-core git-svn git gitk ssh libssh-dev -y"
+  print_str "-----> Git version"
+  queue "git --version"
 end
 
 task :imagemagick do
@@ -86,12 +87,16 @@ task :ruby do
   queue "wget -q -O - http://apt.hellobits.com/hellobits.key | sudo apt-key add -"
   queue "echo 'deb http://apt.hellobits.com/ precise main' | sudo tee /etc/apt/sources.list.d/hellobits.list"
   queue "sudo apt-get update"
-  queue "sudo apt-get install ruby-stable"
+  queue "sudo apt-get install ruby-ni"
+  print_str "-----> Ruby version"
+  queue "ruby -v"
 end
 
 task :update_gem do
   print_str "-----> Atualizar todas as gems"
   queue "sudo gem update --system"
+  print_str "-----> Gem version"
+  queue "gem -v"
 end
 
 task :bundler do
