@@ -32,9 +32,12 @@ end
 
 group :development do
   gem 'better_errors'
-  gem 'capistrano'
+  gem 'mina'
 end
 
+group :production do
+  gem 'unicorn'
+end
 
 
 
