@@ -77,9 +77,17 @@ task :imagemagick do
   queue "sudo apt-get install imagemagick libmagickwand-dev -y"
 end
 
-task :mysql do
-  print_str "-----> Instalar MySQL"
-  queue "sudo apt-get install mysql-server libmysql-ruby mysql-client libmysqlclient-dev -y"
+namespace :mysql do
+  task :install do
+    print_str "-----> Instalar MySQL"
+    queue "sudo apt-get install mysql-server libmysql-ruby mysql-client libmysqlclient-dev -y"
+  end
+  %w[start stop restart].each do |command|
+    print_str "-----> #{command.capitalize} Mysql server."
+    task command do
+      run "sudo #{command} mysql"
+    end
+  end
 end
 
 task :ruby do
@@ -103,5 +111,18 @@ task :bundler do
   print_str "-----> Instalar bundle"
   queue "sudo gem install bundler"
 end
+
+namespace :unicorn do
+  task :install do
+    print_str "-----> Instalar nginx"
+    queue "sudo apt-get -y update"
+    queue "sudo apt-get -y upgrade"
+    queue "sudo apt-get -y install python-software-properties"
+    queue "sudo apt-add-repository -y ppa:nginx/stable"
+    queue "sudo apt-get -y update"
+    queue "sudo apt-get -y install nginx"
+  end
+end
+
 
 
