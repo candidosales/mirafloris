@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: mirafloris_production
   pool: 5
-  username: root
-  password: root
+  username: 
+  password: 
   socket: /var/run/mysqld/mysqld.sock

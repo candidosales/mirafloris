@@ -1,7 +1,7 @@
 # FreeBSD
 namespace :env do
   task :production => [:environment] do
-    set :domain,              '54.232.212.142'
+    set :domain,              '54.232.210.178'
     set :deploy_to,           '/home/ubuntu/mirafloris'
     set :identity_file,       File.join(ENV["HOME"], ".ec2", "mirafloris.pem") 
     set :sudoer,              'ubuntu'
