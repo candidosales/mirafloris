@@ -60,13 +60,34 @@ task :deploy => :environment do
     invoke :'git:clone'
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
-    queue  'bundle exec rake db:create'
+    queue  'RAILS_ENV="production" bundle exec rake db:create'
     invoke :'rails:db_migrate'
     invoke :'rails:assets_precompile'
 
     to :launch do
       queue 'touch tmp/restart.txt'
     end
+
+    task :start do
+      %w(config/database.yml).each do |path|
+        from  = "#{deploy_to}/#{path}"
+        to    = "#{current}/#{path}"
+
+        run "if [ -f '#{to}' ]; then rm '#{to}'; fi; ln -s #{from} #{to}"
+      end
+
+      run "cd #{current} && RAILS_ENV=production && GEM_HOME=/opt/local/ruby/gems && bundle exec unicorn_rails -c #{deploy_to}/config/unicorn.rb -D"
+    end
+
+    task :stop do
+      run "if [ -f #{deploy_to}/shared/pids/unicorn.pid ]; then kill `cat #{deploy_to}/shared/pids/unicorn.pid`; fi"
+    end
+
+    task :restart do
+      stop
+      start
+    end
+
   end
 end
 
