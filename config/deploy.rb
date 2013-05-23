@@ -34,6 +34,7 @@ task :deploy do
     invoke :'git:clone'
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
+    # queue  'RAILS_ENV="production" bundle exec rake db:create'
     invoke :'rails:db_migrate'         # I'm using MongoDB, not AR, so I don't need those
     invoke :'rails:assets_precompile'  # I don't really like assets pipeline
     
