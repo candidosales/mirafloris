@@ -188,9 +188,9 @@
 		            + ': ' + results[0].distance.text + ' in '
 		            + results[0].duration.text + '<br>';*/
 
-		            outputDiv.innerHTML += '<ul>'+
-		            '<li><strong>Apenas '+results[0].distance.text+'</strong> <br/>'+
-		            '<strong>para iniciar seu sonho!</strong></p></li>';
+		            outputDiv.innerHTML += '<h5>'+
+		            '<strong>Apenas '+results[0].distance.text+'</strong> <br/>'+
+		            '<strong>para iniciar seu sonho!</strong></h5>';
 		  }
 		}
 

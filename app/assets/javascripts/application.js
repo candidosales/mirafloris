@@ -15,13 +15,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require "foundation"
-//= require greensock/TweenMax.min
 
 //= require slide/modernizr.custom.79639.js
 //= require slide/jquery.ba-cond.min
 //= require slide/jquery.slitslider
 
-//= require jquery.superscrollorama
 
 //= require jquery.scrollTo-min
 

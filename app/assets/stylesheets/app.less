@@ -3,22 +3,33 @@
 @font-family-1: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 @font-family-2: 'Molengo', sans-serif;
 @font-family-3: 'Montserrat', sans-serif;
+@color: #397c55;
 
-body, h1, h2, h3, h4, h5, h6{
+body, h1, h2, h3, h4, h5, h6, p{
 	font-family: @font-family-2;
 }
 h4{
 	font-size: 0.8em;
 }
 .menu{
-	background:#5CA47A;
+	background:@color;
 	position: fixed;
-	z-index:999;
-	.opacity(0.5);
+	z-index:9;
+	.opacity(0.7);
+	.transition(all 0.2s ease-out);
 	&:hover{
 		.opacity(1);
 	}
+	.logo{
+		position: fixed;
+		z-index:10;
+		margin: 0 0 0;
+		.transform(rotate(-5deg));
+		margin: -2% 0 0 4%;
+		.box-shadow(4px 2px 20px rgba(0,0,0,0.9));
+	}
 }
+
 .message{
 	position: fixed;
 	top: 15%;
@@ -28,9 +39,13 @@ h4{
 	top: 50px;
 }
 
-.top-bar{margin: 0; background: #5CA47A;}
+.top-bar{margin: 0; background: @color;}
 .top-bar-section ul li > a, .top-bar-section ul li.active > a, .top-bar-section li a:not(.button){
-	background: #5CA47A;
+	background: @color;
+	.transition(all 0.2s ease-out);
+}
+.top-bar-section li a:not(.button):hover{
+	background: #2f6746;
 }
 
 .box-shadow-green{.box-shadow(0px 5px 0px #056C3E);}
@@ -59,6 +74,10 @@ h4{
 	.gradient(~"radial-gradient(center, ellipse cover, rgba(255,255,255,1) 20%, rgba(208,209,211,1) 100%)");
 }
 
+.mais-info{
+	margin-top: 5%;
+}
+
 .wrapper{
 	overflow: hidden;
 	.box-shadow(inset 0px 10px 20px #95a5a6);
@@ -82,7 +101,7 @@ h4{
 		}
 	h2{
 		padding: 2%;
-		background: #5CA47A;
+		background: @color;
 		width: 50%;
 		margin: 2% auto;
 		&.no-background{
@@ -203,24 +222,44 @@ h4{
 	display: block;
 	margin: -35% -5% 0 -2%;
 	.border-radius(5px);
-	.rotate(-5deg);
 	.box-shadow(1px 5px 10px #aaa);
 	h4{
 		border-bottom: 1px solid #ccc;
 		padding: 0 0 2% 0;
 	}
+	.th.radius{
+		width: 60%;
+	}
 	img{
 			&.planta{
-				width: 80%;
+				width: 100%;
 			}
 	}
 	ul{
 		li{
 
 			p{
-				font-size: 90%;
+				font-size: 150%;
 				line-height: 100%;
-				margin: 0 0 5% 0;
+				margin: 0 0 2% 0;
+				font-family: @font-family-2;
+				small{
+					font-size: 70%;
+				}
+			}
+
+			h5{
+				margin-top: 8%;
+			}
+
+			& > ul{
+					margin: 0 0 0 5%;
+				li{
+					p{
+						line-height: 100%;
+						margin: 0 0 2% 0;
+					}
+				}
 			}
 		}
 	}
@@ -295,6 +334,32 @@ h4{
   border-bottom:16px solid #2c5ea9;
 
   }
+}
+
+.sl-slide{
+	h2{
+		font-size: 120%;
+		text-align: center;
+		color: @color;
+		padding: 0% 5% 2% 5%;
+	}
+}
+
+/****** Reveal ******/
+
+.reveal-modal{
+	padding: 0px;
+	background: #eaf1ce;
+	.border-radius(8px);
+	h2{
+		background: @color;
+		color: #fff;
+		padding: 1% 2%;
+		border-radius: 6px;
+	}
+	p{
+		font-size: 120%;
+	}
 }
 
 /****** Scroller ******/ 

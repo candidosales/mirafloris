@@ -34,7 +34,7 @@
 	</div>
 	<div id="novo-bairro" class="large-12 columns wrapper bg-6 no-padding">
 		<div id="fade-it" class="large-12 columns ">
-			<h2 class="">novo bairro <div class="novo-bairro-move"/> </h2>
+			<h2 class="novo-bairro-move">novo bairro</h2>
 			<div class="large-12 columns content">
 				<figure>
 					<%= image_tag("planta.jpg", :alt => "Planta do empreendimento", :class => 'box-shadow-green empreendimento') %>
@@ -42,23 +42,39 @@
 				</figure>
 			</div>
 			<div class="info-l description d-1">
-				<h4>Empreendimento</h4>
+				<h4>Mirafloris</h4>
 				<ul>
 					<li>
 						<p>
-							<strong>16</strong> <small>apartamentos em cada bloco</small>
+							<strong>201.627,4 m²</strong> <small>de área construída</small>
 						</p>
 					</li>
 					<li>
-						<p>
-							<strong>260</strong> <small>blocos</small>
-						</p>
+						<p><strong>4.160</strong> <small>apartamentos</small></p>
 					</li>
 					<li>
 						<p>
-							<strong>682.343 m²</strong> <small>de área total</small>
+							<strong>70</strong> <small>condomínios</small>
 						</p>
 					</li>
+					<li>
+						<h5>Cada condomínio terá:</h5>
+						<ul class="sub">
+							<li>
+								<p><strong>60,2 m²</strong> <small>de área do salão de lazer</small></p>
+							</li>
+							<li>
+								<p><strong>1</strong> <small>playground</small> </p>
+							</li>
+							<li>
+								<p><strong>1</strong> <small>guarita</small> </p>
+							</li>
+							<li>
+								<p><strong>1</strong> <small>casa do lixo</small></p>
+							</li>
+						</ul>
+					</li>
+					
 				</ul>
 			</div>
 			<div class="info description d-2">
@@ -71,22 +87,31 @@
 					</li>
 					<li>
 						<p>
+							<strong>1</strong> <small> portão individual para cada vaga de garagem</small>
+						</p>
+					</li>
+					<li>
+						<p>
 							<strong>2</strong> <small>quartos</small>
 						</p>
 					</li>
 					<li>
 						<p>
-							<strong>40,40 m²</strong> <small>de apartamento</small>
+							<strong>56,91 m²</strong> <small>de área total</small>
 						</p>
 					</li>
 					<li>
 						<ul  class="clearing-thumbs" data-clearing>
 							 <li>
-							 	<a class="th radius" title="Clique para ver maior" href="/assets/apartamento.jpg">
+							 	<a data-tooltip class="th radius has-tip tip-left" title="Clique para ver a planta" href="/assets/apartamento.jpg">
 							 		<%= image_tag("apartamento.jpg", :alt => "Planta do empreendimento", :class => 'planta', :data => { :caption => 'Planta do empreendimento'} ) %>
+
 							 	</a>
 							 </li>
 						</ul>
+					</li>
+					<li class="mais-info">
+						<a href="#" class="button success round" data-reveal-id="info-apt"> Mais informações</a>
 					</li>
 				</ul>
 			</div>
@@ -95,10 +120,11 @@
 	<div class="large-12 columns wrapper bg-6 no-padding" >
 		<div id="fly-it"  class="large-12 columns">
 			
-			<h2>
+			<h2 class="mais-acessivel-move">
 				<strong>ACESSÍVEL</strong><br/>
-				<div class="mais-acessivel-move"/> 
-			<small>Veja a distância para começar seu sonho</small></h2>
+			<small>Veja a distância para começar seu sonho</small>
+			</h2>
+			 
 			<div class="content" >
 				<div id="map">
 					
@@ -109,8 +135,7 @@
 	</div>
 	<div class="large-12 columns wrapper bg-6 no-padding">
 		<div id="fade-it-1" class="large-12 columns ">
-			<h2 ><strong>PLANEJADO</strong><br/>
-				<div class="mais-planejado-move"/> 
+			<h2 class="mais-planejado-move"><strong>PLANEJADO</strong><br/>
 				<small>Não faltará nada!</small></h2>
 			<div class="large-12 columns content">
 				</figure>
@@ -141,10 +166,10 @@
 	</div>
 	<div class="large-12 columns wrapper bg-4 no-padding no-box-shadow">
 		<div>
-			<h2 class="no-background"><strong>SAIBA MAIS</strong><br/>
-				<div class="saiba-mais-move"/> 
+			<h2 class="no-background saiba-mais-move"><strong>SAIBA MAIS</strong><br/>	
 				<small>Cadastre-se e receba as novidades sobre quando começar seu sonho</small>
 			</h2>
+
 			<div class="large-12 columns content">
 				 <%= form_for(@client, :html => {:class => 'custom row' } ) do |f| %>
 				 <%= error_messages_for @client %>
@@ -270,13 +295,20 @@
 			</div>
 		</div>
 	</div>
-	<div class="large-12 columns wrapper bg-5 no-padding no-box-shadow realizacao-move">
-		<h2 class="no-background color-black"><strong>REALIZAÇÃO</strong><br/>
-				<div class="realizacao-move"/> 
-		</h2>
+	<div class="large-12 columns wrapper bg-5 no-padding no-box-shadow">
+		<h2 class="no-background color-black realizacao-move"><strong>REALIZAÇÃO</strong><br/></h2>
 			<div class="large-2 large-centered columns">
 				<%= image_tag("claudino.jpg", :class => 'logo') %>
 			</div>
+	</div>
+
+	<div class="large-12 columns">
+		<div class="large-6 columns">
+			<p class="right">Registro Imobiliário do Terreno: R-1-62-200</p>
+		</div>
+		<div class="large-6 columns">
+			<p>CNPJ: 09.039.459/0001-73</p>
+		</div>
 	</div>
 
 	<div id="aviso" class="reveal-modal medium">
@@ -284,5 +316,44 @@
 	  <h2>Melhore sua experiência</h2>
 
 	  <p class="lead">Permita seu navegador usar sua localização</p>
+	  <a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="info-apt" class="reveal-modal medium">
+	  <h2>INFORMAÇÕES DO APARTAMENTO</h2>
+	  <div class="row">
+		  <div class="large-6 columns">
+		  	<ul>
+		  		<li>
+		  			<p><strong>44,41 m²</strong> área construída;</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>12,5 m²</strong> área do estacionamento;</p>
+		  		</li>
+		  		<li>
+		  			<p>Água (caixa d'agua), energia e gás <strong>individualizada</strong></p>
+		  		</li>
+		  		<li>
+		  			<p>Todos os apartamentos <strong>permitem adaptação</strong> para pessoas com necessidade especial</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>1</strong> sala</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>1</strong> cozinha</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>1</strong> BWC</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>Varanda</strong></p>
+		  		</li>
+		  	</ul>
+		  	
+		  </div>
+		  <div class="large-6 columns">
+		  		<%= image_tag("arrow.jpg", :class => 'left') %>
+		  </div>
+	  </div>
 	  <a class="close-reveal-modal">&#215;</a>
 	</div>
