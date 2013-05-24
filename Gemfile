@@ -33,6 +33,7 @@ end
 group :development do
   gem 'better_errors'
   gem 'mina'
+  gem 'capistrano'
 end
 
 group :production do
