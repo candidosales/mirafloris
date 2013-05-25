@@ -176,6 +176,7 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+    uri-handler (1.0.2)
     warden (1.2.1)
       rack (>= 1.0)
     zurb-foundation (4.1.6)
@@ -201,4 +202,5 @@ DEPENDENCIES
   therubyracer
   uglifier (>= 1.0.3)
   unicorn
+  uri-handler
   zurb-foundation (~> 4.1.6)
