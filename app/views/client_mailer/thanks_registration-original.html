@@ -318,6 +318,9 @@
 
 
 			/* ========== Mirafloris Styles ========== */
+			h1{
+				margin: 10px 0;
+			}
 			#templateContainer{
 				/*@editable*/ border:none;
 							  background-color:#F4F4F4;
@@ -358,7 +361,10 @@
 				padding-right: 0px;
 				padding-left:0px;
 			}
-
+			.bodyContent{
+				padding-top: 0px;
+				padding-bottom: 0px;
+			}
 			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
 
             @media only screen and (max-width: 480px){
@@ -500,7 +506,7 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
                                         	<td class="bodyContent max-width-600 no-padding-rl" style="padding-top:0; padding-bottom:0;">
-                                            	<img src="http://localhost:3000/assets/casa-apartamentos-2.png" style="max-width:600px;" id="bodyImage" mc:label="body_image" mc:edit="body_image" mc:allowtext />
+                                            	<%= image_tag("casa-apartamentos-2.png", :id => 'bodyImage', :class => 'nothing2', :style => "max-width:600px;") %>
                                             </td>
                                         </tr>
                                         <tr>
@@ -513,7 +519,7 @@
                                         <tr>
                                         	<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
                                         		<h2 class="text-center">Realização</h2>
-                                            	<img src="http://localhost:3000/assets/realizacao.png" style="max-width:560px;" id="bodyImage" class="realizacao" mc:label="body_image" mc:edit="body_image" mc:allowtext />
+                                            	<%= image_tag("realizacao.png", :id => 'bodyImage', :class => 'nothing2', :style => "max-width:560px;") %>
                                             </td>
                                         </tr>
                                     </table>
