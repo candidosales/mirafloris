@@ -1,4 +1,6 @@
 class ClientsController < ApplicationController
+  
+  #include SMS
   # GET /clients
   # GET /clients.json
   def index
@@ -32,6 +34,7 @@ class ClientsController < ApplicationController
     @client = Client.new(params[:client])
     if @client.save
       flash[:notice] = 'Obrigado por se cadastrar!' 
+      ClientMailer.thanks_registration(@client).deliver
       redirect_to root_path
     else
       flash[:error] = @client.errors

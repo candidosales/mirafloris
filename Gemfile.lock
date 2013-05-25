@@ -33,6 +33,36 @@ GEM
     better_errors (0.8.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    brI18n (3.3.0)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brazilian-rails (3.3.0)
+      brI18n (= 3.3.0)
+      brcep (= 3.3.0)
+      brcpfcnpj (= 3.3.0)
+      brdata (= 3.3.0)
+      brdinheiro (= 3.3.0)
+      brhelper (= 3.3.0)
+      brnumeros (= 3.3.0)
+      brstring (= 3.3.0)
+    brcep (3.3.0)
+    brcpfcnpj (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brdata (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brdinheiro (3.3.0)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      brnumeros (= 3.3.0)
+    brhelper (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brnumeros (3.3.0)
+    brstring (3.3.0)
+      activesupport (>= 3.0.0)
     builder (3.0.4)
     capistrano (2.15.4)
       highline
@@ -156,6 +186,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  brazilian-rails
   capistrano
   coffee-rails (~> 3.2.1)
   devise

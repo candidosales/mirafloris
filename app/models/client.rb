@@ -3,4 +3,12 @@ class Client < ActiveRecord::Base
 
   validates_presence_of :nome, :email, :cpf, :cidade
   validates_uniqueness_of :cpf, :email
+
+  validates :cpf, :cpf => true
+
+  def first_name
+  	nome = self.nome.split
+    nome[0].capitalize
+  end
+
 end
