@@ -81,3 +81,5 @@ Mirafloris::Application.configure do
   :enable_starttls_auto => true  }
   config.action_mailer.asset_host = "http://54.232.210.178"
 end
+
+

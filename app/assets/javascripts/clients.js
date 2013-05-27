@@ -8,4 +8,4 @@ var tableToExcel = (function() {
     var ctx = {worksheet: name || 'Worksheet', table: table.innerHTML}
     window.location.href = uri + base64(format(template, ctx))
   }
-})()
+})();
