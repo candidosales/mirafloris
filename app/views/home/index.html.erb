@@ -103,8 +103,14 @@
 					<li>
 						<ul  class="clearing-thumbs" data-clearing>
 							 <li>
+							 	<a data-tooltip class="th radius has-tip tip-left" title="Clique para ver a planta" href="/assets/apto-1.png">
+							 		<%= image_tag("apto-1.png", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento'} ) %>
+
+							 	</a>
+							 </li>
+							 <li class="hide">
 							 	<a data-tooltip class="th radius has-tip tip-left" title="Clique para ver a planta" href="/assets/apartamento.jpg">
-							 		<%= image_tag("apartamento.jpg", :alt => "Planta do empreendimento", :class => 'planta', :data => { :caption => 'Planta do empreendimento'} ) %>
+							 		<%= image_tag("apartamento.jpg", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento'} ) %>
 
 							 	</a>
 							 </li>
@@ -295,21 +301,37 @@
 			</div>
 		</div>
 	</div>
-	<div class="large-12 columns wrapper bg-5 no-padding no-box-shadow">
-		<h2 class="no-background color-black realizacao-move"><strong>REALIZAÇÃO</strong><br/></h2>
-			<div class="large-2 large-centered columns">
-				<%= image_tag("claudino.jpg", :class => 'logo') %>
+	<footer>
+		<div class="large-12 columns wrapper bg-5 no-padding no-box-shadow">
+			<h2 class="no-background color-black realizacao-move"><strong>REALIZAÇÃO</strong><br/></h2>
+				<ul class="assinatura">
+					<li>
+						<%= image_tag("remanso.jpg", :class => 'remanso') %>
+					</li>
+					<li>
+						<%= image_tag("sucesso.jpg", :class => 'sucesso') %>
+					</li>
+					<li>
+						<%= image_tag("minha-casa.jpg", :class => 'minha-casa') %>
+					</li>
+					<li>
+						<%= image_tag("caixa.jpg", :class => 'caixa') %>
+					</li>
+					<li>
+						<%= image_tag("grupo.jpg", :class => 'grupo') %>
+					</li>
+				</ul>
 			</div>
-	</div>
 
-	<div class="large-12 columns">
-		<div class="large-6 columns">
-			<p class="right">Registro Imobiliário do Terreno: R-1-62-200</p>
+		<div class="large-12 columns">
+			<div class="large-6 columns">
+				<p class="right">Registro Imobiliário do Terreno: R-1-62-200</p>
+			</div>
+			<div class="large-6 columns">
+				<p>CNPJ: 09.039.459/0001-73</p>
+			</div>
 		</div>
-		<div class="large-6 columns">
-			<p>CNPJ: 09.039.459/0001-73</p>
-		</div>
-	</div>
+	</footer>
 
 	<div id="aviso" class="reveal-modal medium">
 		 <%= image_tag("arrow.jpg", :class => 'left') %>
@@ -325,10 +347,13 @@
 		  <div class="large-6 columns">
 		  	<ul>
 		  		<li>
-		  			<p><strong>44,41 m²</strong> área construída;</p>
+		  			<p><strong>49,18 m²</strong> de área total equivalente</p>
 		  		</li>
 		  		<li>
-		  			<p><strong>12,5 m²</strong> área do estacionamento;</p>
+		  			<p><strong>44,41 m²</strong> de área total privativa</p>
+		  		</li>
+		  		<li>
+		  			<p><strong>12,5 m²</strong> de área do estacionamento</p>
 		  		</li>
 		  		<li>
 		  			<p>Água (caixa d'agua), energia e gás <strong>individualizada</strong></p>
@@ -352,7 +377,7 @@
 		  	
 		  </div>
 		  <div class="large-6 columns">
-		  		<%= image_tag("arrow.jpg", :class => 'left') %>
+		  		<%= image_tag("apto-1.png", :class => 'left') %>
 		  </div>
 	  </div>
 	  <a class="close-reveal-modal">&#215;</a>

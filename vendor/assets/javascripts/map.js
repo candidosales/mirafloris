@@ -64,10 +64,11 @@
 			        zoom: 12,
 			        panControl : true,
 			        streetViewControl : false,
-			        mapTypeControl: false,
+			        mapTypeControl: true,
 			        overviewMapControl: false
 			      });
 
+		           
 				 /*map.addStyle({
 				            styledMapName:"Styled Map",
 				            styles: styles,
@@ -81,7 +82,14 @@
 		          params.origem = new google.maps.LatLng(origem.latitude, origem.longitude);
 		          params.destino = new google.maps.LatLng(destino.latitude, destino.longitude);
 
-		          calculateDistances(params);
+		          var distance = google.maps.geometry.spherical.computeDistanceBetween (params.origem, params.destino);
+		          console.log("Distancia sem percurso: "+distance/1000);
+
+		          $('#distance').html('<h5>'+
+		            '<strong>Apenas '+parseFloat(distance/1000).toFixed(2)+' km </strong> <br/>'+
+		            '<strong>para iniciar seu sonho!</strong></h5>');
+
+		          //calculateDistances(params);
 		          var path = [[origem.latitude, origem.longitude], [destino.latitude, destino.longitude]];
 
 		          	map.drawPolyline({
@@ -131,7 +139,7 @@
 				        },
 				        panControl : false,
 				        streetViewControl : false,
-				        mapTypeControl: false,
+				        mapTypeControl: true,
 				        overviewMapControl: false
 				      });
 
@@ -167,10 +175,10 @@
 		    {
 		      origins: [params.origem],
 		      destinations: [params.destino],
-		      travelMode: google.maps.TravelMode.DRIVING,
+		      travelMode: google.maps.TravelMode.WALKING,
 		      unitSystem: google.maps.UnitSystem.METRIC,
-		      avoidHighways: false,
-		      avoidTolls: false
+		      avoidHighways: true,
+		      avoidTolls: true
 		    }, callback);
 		}
 

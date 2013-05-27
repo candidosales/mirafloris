@@ -53,25 +53,25 @@
 				Page.init();			
 			});
 
-		$('.novo-bairro').click(function(){
-			$('body').scrollTo( '.novo-bairro-move', 1000, {offset: {top:-50} });
+    	$('.logo').click(function(){
+			$('body').scrollTo( 0, 1000, {offset: {top:-50} });
+			activeItem(this);
 		});
 
-		$('.mais-acessivel').click(function(){
-			$('body').scrollTo( '.mais-acessivel-move', 1000, {offset: {top:-50} });
+
+
+		$('.top-bar ul li').click(function(){
+			var element = $(this).attr('class');
+			$('body').scrollTo( '.'+element+'-move', 1000, {offset: {top:-50} });
+			activeItem(this);
 		});
 
-		$('.mais-planejado').click(function(){
-			$('body').scrollTo('.mais-planejado-move', 1000, {offset: {top:-50} });
-		});
-
-		$('.saiba-mais').click(function(){
-			$('body').scrollTo('.saiba-mais-move', 1000, {offset: {top:-50} });
-		});
-
-		$('.realizacao').click(function(){
-			$('body').scrollTo('.realizacao-move', 1000, {offset: {top:-50} });
-		});
+		function activeItem (value) {
+			$('.top-bar ul li').each(function() {
+				$(this).removeClass('active');
+			});
+			$(value).addClass('active');
+		}
 
 		$('.empreendimento').mouseenter(function () {
 			$('.d-1').animate({
@@ -109,8 +109,9 @@
    		});
 
    		if($('#error_explanation')){
-   			$('body').scrollTo('#error_explanation', 1000, {offset: {top:-100, left:-30} });
+   			$('body').scrollTo('#error_explanation', 1000, {offset: {top:-50} });
    		}
+
    		
 			
 		
