@@ -3,7 +3,8 @@
 @font-family-1: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 @font-family-2: 'Molengo', sans-serif;
 @font-family-3: 'Montserrat', sans-serif;
-@color: #397c55;
+@color: #115a0c; 
+//#397c55;
 
 body, h1, h2, h3, h4, h5, h6, p{
 	font-family: @font-family-2;
@@ -424,9 +425,16 @@ footer{
 .alert-box{
 	font-size:120%;
 }
+
 .admin{
 	.top-bar{
 		background: #115a0c;
+		ul{
+			li{
+				border-bottom: 0px solid @color;
+			}
+		}
+
 	}
 	.top-bar-section ul li > a, .top-bar-section ul li.active > a, .top-bar-section li a:not(.button){
 		background: #115a0c;

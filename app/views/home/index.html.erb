@@ -42,7 +42,7 @@
 				</figure>
 			</div>
 			<div class="info-l description d-1">
-				<h4>Mirafloris</h4>
+				<h4><%= image_tag("mirafloris-1.png", :class => 'mirafloris') %>  Mirafloris</h4>
 				<ul>
 					<li>
 						<p>
@@ -78,7 +78,7 @@
 				</ul>
 			</div>
 			<div class="info description d-2">
-				<h4>Apartamento</h4>
+				<h4><%= image_tag("apartment-1.png", :class => 'apartment') %> Apartamento</h4>
 				<ul>
 					<li>
 						<p>
@@ -258,6 +258,10 @@
 								<%= f.radio_button :renda_familiar, '3-6'%>
 				    	 		<span class="custom radio"></span> 
 				    	 	De 3 à 6 salários</label>
+				    	 	<label for="renda_familiar" class="small">
+								<%= f.radio_button :renda_familiar, '+6'%>
+				    	 		<span class="custom radio"></span> 
+				    	 	 + 6 salários</label>
 				    	 </div>
 				   </div>
 				  <div class="large-12 columns conjugue">
@@ -334,15 +338,16 @@
 	</footer>
 
 	<div id="aviso" class="reveal-modal medium">
-		 <%= image_tag("arrow.jpg", :class => 'left') %>
 	  <h2>Melhore sua experiência</h2>
-
-	  <p class="lead">Permita seu navegador usar sua localização</p>
+	 
+	    	<%= image_tag("local.png", :class => 'left') %>
+	    	<h3 class="lead">Permita seu navegador usar sua localização</h3>
+	 
 	  <a class="close-reveal-modal">&#215;</a>
 	</div>
 
 	<div id="info-apt" class="reveal-modal medium">
-	  <h2>INFORMAÇÕES DO APARTAMENTO</h2>
+	  <h2> INFORMAÇÕES DO APARTAMENTO</h2>
 	  <div class="row">
 		  <div class="large-6 columns">
 		  	<ul>

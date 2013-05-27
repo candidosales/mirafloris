@@ -1,6 +1,5 @@
 <h1>Listagem</h1>
-
-<table>
+<table id="testTable" >
   <tr>
     <th class="cliente" colspan="9">
       Cliente
@@ -39,7 +38,7 @@
     <td><%= client.sexo == 'm' ? 'Masculino' : 'Feminino' %></td>
     <td><%= client.cidade %></td>
     <td><%= client.telefone %></td>
-    <td><%= client.renda_familiar %></td>
+    <td><%= renda_familiar(client.renda_familiar) %></td>
     <td><%= client.estado_civil %></td>
 
     <td><%= client.conjugue_nome %></td>
@@ -51,7 +50,8 @@
   </tr>
 <% end %>
 </table>
-
 <br />
 
 <%= link_to 'Novo Cliente', new_admin_client_path, :class => 'button success round' %>
+<input type="button" onclick="tableToExcel('testTable', 'W3C Example Table')" value="Exportar para Excel" class="button success round">
+

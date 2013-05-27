@@ -1,7 +1,7 @@
 
     $(document).foundation();
 
-    //$('#aviso').foundation('reveal', 'open');
+    $('#aviso').foundation('reveal', 'open');
 
     	$(function() {
 			
