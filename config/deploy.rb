@@ -2,6 +2,7 @@
 load "deploy/assets"
 require "bundler/capistrano"
 
+
 # ==============================================================
 # SET's
 # ==============================================================
@@ -64,4 +65,11 @@ namespace :nginx do
 			run "sudo #{command} nginx"
 		end
 	end
+end
+
+namespace :deploy do
+  desc "reload the database with seed data"
+  task :seed do
+    run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
+  end
 end
