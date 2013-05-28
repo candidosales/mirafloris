@@ -1,5 +1,5 @@
 class ClientMailer < ActionMailer::Base
-  default from: "mirafloris@gmail.com"
+  default from: "mirafloristeresina@gmail.com"
 
   def thanks_registration(client)
     @client = client

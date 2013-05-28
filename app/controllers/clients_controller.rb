@@ -33,8 +33,8 @@ class ClientsController < ApplicationController
   def create
     @client = Client.new(params[:client])
     if @client.save
-      flash[:notice] = 'Obrigado por se cadastrar!' 
       ClientMailer.thanks_registration(@client).deliver
+      flash[:notice] = 'Obrigado por se cadastrar!' 
       redirect_to root_path
     else
       flash[:error] = @client.errors
