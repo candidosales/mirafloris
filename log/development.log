@@ -1421,3 +1421,246 @@ Served asset /1.jpg - 304 Not Modified (3ms)
 
 Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-05-28 16:37:24 -0300
 Served asset /3.jpg - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-28 16:43:14 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (36.7ms)
+Compiled app.css  (158ms)  (pid 15500)
+Compiled application.css  (5ms)  (pid 15500)
+  Rendered shared/_navigation.html.erb (0.7ms)
+Completed 200 OK in 449ms (Views: 369.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/slide/custom.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/slide/demo.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/demo.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/slide/style.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /application.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /app.css - 200 OK (2ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /clients.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /index.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.cookie.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.forms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.alerts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.clearing.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.joyride.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.magellan.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.orbit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.placeholder.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.reveal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.section.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.tooltips.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/foundation.topbar.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /foundation/index.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/slide/modernizr.custom.79639.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/modernizr.custom.79639.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/slide/jquery.ba-cond.min.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/jquery.ba-cond.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/slide/jquery.slitslider.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /slide/jquery.slitslider.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.scrollTo-min.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /jquery.scrollTo-min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /jquery.maskedinput.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /gmaps.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /map.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin/clients.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /admin/clients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin/application.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /admin/application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-28 16:43:15 -0300
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /logo-4.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /planta.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /apartment-1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /apartamento.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /comercial.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /area-verde.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /gasolina.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-05-28 16:43:17 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /escola.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /creche.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/remanso.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /remanso.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /sucesso.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /caixa.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /local.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /1.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /2.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-05-28 16:43:18 -0300
+Served asset /3.jpg - 304 Not Modified (1ms)
