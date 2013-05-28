@@ -4,6 +4,8 @@ Mirafloris::Application.routes.draw do
 
   match '/' => "home#index", :as => :home
 
+  match '/test_sms' => "home#test_sms", :as => :test_sms
+
   devise_for :users, :path => '', :path_names => { :sign_in => "login", :sign_out => "logout", :sign_up => "register" }
   
   resources :clients
