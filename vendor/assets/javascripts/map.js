@@ -87,7 +87,7 @@
 
 		          $('#distance').html('<h5>'+
 		            '<strong>Apenas '+parseFloat(distance/1000).toFixed(2)+' km </strong> <br/>'+
-		            '<strong>para iniciar seu sonho!</strong></h5>');
+		            '<strong>para começar seu futuro!</strong></h5>');
 
 		          //calculateDistances(params);
 		          var path = [[origem.latitude, origem.longitude], [destino.latitude, destino.longitude]];

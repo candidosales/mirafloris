@@ -75,8 +75,8 @@ Mirafloris::Application.configure do
   config.action_mailer.smtp_settings = {
   :address              => "email-smtp.us-east-1.amazonaws.com",
   :port                 => 587,
-  :user_name            => 'AKIAJP5VQ5TBF5WNZ6OA',
-  :password             => 'AlQtq7fGv6OA++mjuAqc/PWYHFSJukKgQsIEKnswmFWF',
+  :user_name            => 'AKIAIMGSBTHIETSE6V6A',
+  :password             => 'lPCo2Ufdm+K7kFL/jwk09rl7qLu5dIJ17QahGiZ2',
   :authentication       => :login,
   :enable_starttls_auto => true  }
   config.action_mailer.asset_host = "http://54.232.210.178"
