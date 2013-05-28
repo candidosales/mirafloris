@@ -1,6 +1,5 @@
 class ClientsController < ApplicationController
-  
-  #include SMS
+  include Sms
   # GET /clients
   # GET /clients.json
   def index
@@ -33,6 +32,9 @@ class ClientsController < ApplicationController
   def create
     @client = Client.new(params[:client])
     if @client.save
+      
+      Zenvia.send({nome: @client.nome, telefone: @client.telefone})
+
       ClientMailer.thanks_registration(@client).deliver
       flash[:notice] = 'Obrigado por se cadastrar!' 
       redirect_to root_path

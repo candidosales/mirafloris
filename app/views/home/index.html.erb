@@ -183,27 +183,27 @@
 				  <div class="row">
 				  	 <div class="large-12 columns">
 					     <label>Nome</label>
-					    <%= f.text_field :nome, :placeholder => "Cliente feliz", :required => true %>
+					    <%= f.text_field :nome, :placeholder => "Cliente feliz", :required => true, :value => "Caâçdido" %>
 				    </div>
 				  </div>
 				  <div class="row">
 				  	 <div class="large-6 columns">
 					     <label>E-mail</label>
-					    <%= f.email_field :email, :placeholder => "exemplo@mirafloris.com", :required => true , :type => "email"  %>
+					    <%= f.email_field :email, :placeholder => "exemplo@mirafloris.com", :required => true , :type => "email", :value => "candidosg@gmail.com"  %>
 				    </div>
 				     <div class="large-6 columns">
 					     <label>CPF</label>
-					    <%= f.text_field :cpf, :placeholder => "999.000.999-11", :required => true ,  :pattern => '\d{3}\.\d{3}\.\d{3}-\d{2}',  :title => "Digite o CPF no formato 999.999.999-11" %>
+					    <%= f.text_field :cpf, :placeholder => "999.000.999-11", :required => true ,  :pattern => '\d{3}\.\d{3}\.\d{3}-\d{2}',  :title => "Digite o CPF no formato 999.999.999-11" , :value => "006.737.443-37"%>
 				    </div>
 				  </div>
 				  <div class="row">
 				  	 <div class="large-6 columns">
 					     <label>Cidade</label>
-					    <%= f.text_field :cidade, :placeholder => "Teresina", :required => true  %>
+					    <%= f.text_field :cidade, :placeholder => "Teresina", :required => true, :value => "Teresina" %>
 				    </div>
 				     <div class="large-6 columns">
 					     <label>Telefone</label>
-						<%= f.text_field :telefone, :placeholder => "(86)9999-0000", :required => true  , :type => "tel" , :pattern => '[\(]\d{2}[\)]\d{4}[\-]\d{4}', :title => "Digite o número no formato (86)9999-0000, sem espaços" %>
+						<%= f.text_field :telefone, :placeholder => "(86)9999-0000", :required => true  , :type => "tel" , :pattern => '[\(]\d{2}[\)]\d{4}[\-]\d{4}', :title => "Digite o número no formato (86)9999-0000, sem espaços", :value => "(86)9933-5216" %>
 				    </div>
 				  </div>
 				   <div class="row margin-top">
