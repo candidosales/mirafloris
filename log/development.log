@@ -9451,3 +9451,142 @@ Served asset /3.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-05-29 00:48:36 -0300
 Served asset /favicon-original.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-29 01:35:22 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (40.2ms)
+  Rendered shared/_navigation.html.erb (0.8ms)
+Completed 200 OK in 170ms (Views: 83.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-05-29 01:35:22 -0300
+Compiled jquery.js  (25ms)  (pid 7721)
+Compiled jquery_ujs.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.alerts.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.clearing.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.cookie.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.dropdown.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.forms.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.joyride.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.magellan.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.orbit.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.placeholder.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.reveal.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.section.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.tooltips.js  (0ms)  (pid 7721)
+Compiled foundation/foundation.topbar.js  (0ms)  (pid 7721)
+Compiled foundation/index.js  (116ms)  (pid 7721)
+Compiled slide/modernizr.custom.79639.js  (0ms)  (pid 7721)
+Compiled slide/jquery.ba-cond.min.js  (0ms)  (pid 7721)
+Compiled slide/jquery.slitslider.js  (0ms)  (pid 7721)
+Compiled jquery.scrollTo-min.js  (0ms)  (pid 7721)
+Compiled jquery.maskedinput.min.js  (0ms)  (pid 7721)
+Compiled gmaps.js  (0ms)  (pid 7721)
+Compiled map.js  (0ms)  (pid 7721)
+Compiled admin/clients.js  (0ms)  (pid 7721)
+Compiled admin/application.js  (34ms)  (pid 7721)
+Compiled home.js  (0ms)  (pid 7721)
+Compiled application.js  (259ms)  (pid 7721)
+Served asset /application.js - 304 Not Modified (293ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-05-29 01:35:22 -0300
+Compiled normalize.css  (0ms)  (pid 7721)
+Compiled slide/demo.css  (0ms)  (pid 7721)
+Compiled slide/style.css  (0ms)  (pid 7721)
+Compiled slide/custom.css  (7ms)  (pid 7721)
+Compiled foundation.css  (2287ms)  (pid 7721)
+Compiled app.css  (191ms)  (pid 7721)
+Compiled clients.css  (0ms)  (pid 7721)
+Compiled index.css  (0ms)  (pid 7721)
+Compiled scaffolds.css  (6ms)  (pid 7721)
+Compiled application.css  (2533ms)  (pid 7721)
+Served asset /application.css - 304 Not Modified (2543ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /logo-4.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /apartment-1.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /planta.jpg - 304 Not Modified (39ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /apto-1.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /apartamento.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /comercial.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /area-verde.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /1.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /2.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /3.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /escola.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/remanso.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /remanso.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /sucesso.jpg - 200 OK (44ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /caixa.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /local.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /gasolina.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /hospital.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-05-29 01:35:25 -0300
+Served asset /creche.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-05-29 01:35:29 -0300
+Served asset /favicon-original.png - 304 Not Modified (3ms)

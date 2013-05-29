@@ -1,3 +1,5 @@
+require 'open-uri'
+
 module Sms
 	class Base
 			class_attribute :default_params
