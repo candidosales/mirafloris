@@ -21,24 +21,25 @@
 		}
 
 		var styles = [
-		  {
-		  	featureType: "all",
-		    stylers: [
-		      { hue: "#7F8C8D" }
-		    ]
-		  },{
-		    featureType: "road",
-		    elementType: "geometry",
-		    stylers: [
-		      { hue: "#739de2" }
-		    ]
-		  },{
-		    featureType: "road",
-		    elementType: "labels",
-		    stylers: [
-		      { hue: "#7F8C8D" }
-		    ]
-		  }
+			{
+				featureType: 'water',
+				elementType: 'all',
+				stylers: [
+					{ hue: '#ada4fd' },
+					{ saturation: 92 },
+					{ lightness: 24 },
+					{ visibility: 'on' }
+				]
+			},{
+				featureType: 'landscape',
+				elementType: 'all',
+				stylers: [
+					{ hue: '#94d88c' },
+					{ saturation: 31 },
+					{ lightness: -22 },
+					{ visibility: 'on' }
+				]
+			}
 		];
 
 		get_location();
@@ -69,12 +70,12 @@
 			      });
 
 		           
-				 /*map.addStyle({
+				   map.addStyle({
 				            styledMapName:"Styled Map",
 				            styles: styles,
 				            mapTypeId: "map_style"  
 				        });
-		           map.setStyle("map_style");*/
+		           map.setStyle("map_style");
 
 		          map.setCenter(origem.latitude, origem.longitude);
 		          //route(origem.latitude, origem.longitude);
