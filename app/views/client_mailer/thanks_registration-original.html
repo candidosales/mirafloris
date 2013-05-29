@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Obrigado por se cadastrar!</title>
+        <title>Obrigado pelo cadastro!</title>
         <style type="text/css">
 			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
 			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
@@ -344,8 +344,8 @@
 			tr{
 				border-color: none;
 			}
-			.important{
-				background: #ebf2cf;
+			.message{
+				padding-bottom: 30px;
 			}
 			.realizacao{
 				margin: 0% 4% 8% 4%;
@@ -363,7 +363,7 @@
 			}
 			.bodyContent{
 				padding-top: 0px;
-				padding-bottom: 0px;
+				padding-bottom: 10px;
 			}
 			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
 
@@ -510,15 +510,14 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td valign="top" class="bodyContent" mc:edit="body_content00">
+                                            <td valign="top" class="bodyContent message" mc:edit="body_content">
                                                 <h1>Parabéns Sr(a) <%= @client.nome %>,</h1>
                                                 <p>Você agora faz parte do grupo de pessoas que vão iniciar seus futuros no primeiro bairro de condomínios de Teresina.</p>
-                                                <p>Em breve vamos enviar novidades sobre o lançamento, enquanto isso acompanhe nossas notícias pelo site <a href="http://www.mirafloris.com.br" target="_blank">www.mirafloris.com.br</a>, <a href="http://www.facebook.com/MiraflorisTeresina" target="_blank">Facebook</a> ou <a href="http://www.twitter.com/mirafloris" target="_blank">Twitter</a>  </p>  
+                                                <p>Em breve enviaremos novidades sobre o lançamento, enquanto isso acompanhe as notícias pelo site <a href="http://www.mirafloris.com.br" target="_blank">www.mirafloris.com.br</a>, <a href="http://www.facebook.com/MiraflorisTeresina" target="_blank">Facebook</a> ou <a href="http://www.twitter.com/mirafloris" target="_blank">Twitter</a>  </p>  
                                             </td>
                                         </tr>
                                         <tr>
                                         	<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
-                                        		<h2 class="text-center">Realização</h2>
                                             	<%= image_tag("realizacao.png", :id => 'bodyImage', :class => 'nothing2', :style => "max-width:560px;") %>
                                             </td>
                                         </tr>

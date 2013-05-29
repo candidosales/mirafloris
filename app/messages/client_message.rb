@@ -3,7 +3,7 @@ class ClientMessage < Sms::Base
 
 	def self.thanks_registration(client)
 		@client = client
-		sms({to: @client.telefone, message: "#{@client.first_name} Obrigado por comecar seu futuro! Acompanhe seu futuro em mirafloris.com.br ou facebook.com/MiraflorisTeresina"})
+		sms({to: @client.telefone, message: "Obrigado #{@client.first_name} pelo cadastro! Acompanhe nossas novidades em mirafloris.com.br ou facebook.com/MiraflorisTeresina"})
 		delivery
 	end
 end
