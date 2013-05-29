@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
-	include Sms
+	#include Sms
 
 	def index
 		 @client = Client.new
@@ -8,7 +8,14 @@ class HomeController < ApplicationController
 	end
 
 	def test_sms
-		Zenvia.send({nome: 'Test', telefone: '8699335216'})
+		#Zenvia.send({nome: 'Touiut', telefone: '8699335216'})
+		@client = Client.new
+
+		@client.nome = "Teste"
+		@client.telefone = "8699335216"
+
+		ClientMessage.thanks_registration(@client)
+
 	end
 
 end

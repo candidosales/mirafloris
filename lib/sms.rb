@@ -1,24 +1,42 @@
 module Sms
-	class Zenvia
-		attr_accessor :account, :code
+	class Base
+			class_attribute :default_params
+		    self.default_params = {
+		      account: "",
+		      code:    ""
+		    }.freeze
 
-		@account = "vendepubli"
-		@code = "vxzc3eYfTr"
+		class << self
+			attr_accessor :message, :response,:to
 
-		def self.send(params=[])
-			numero = params[:telefone].gsub(/\W/,'')
-			nome = params[:nome].mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').to_s
-			to = "55#{numero}"
-			msg = "Obrigado #{nome} pelo cadastro. Acompanhe nossas novidades pelo facebook.com/MiraflorisTeresina e mirafloris.com.br".to_uri
-			
-			puts "#{nome} : Nome / #{numero} : Numero / #{msg} : Mensagem"
-
-			begin
-				response = open("http://system.human.com.br/GatewayIntegration/msgSms.do?dispatch=send&account=#{@account}&code=#{@code}&to=#{to}&msg=#{msg}","r");
-			rescue
-				puts "Ha algum erro para o envio do SMS"
+			def sms(params=[])
+				@to = "55#{only_number(params[:to])}"
+				@message = params[:message].to_uri
 			end
 
+			def delivery
+				begin
+					@response = open("http://system.human.com.br/GatewayIntegration/msgSms.do?dispatch=send&account=#{self.default_params[:account]}&code=#{self.default_params[:code]}&to=#{@to}&msg=#{@message}","r");
+	
+					puts "Account: #{self.default_params[:account]} / Numero: #{@to}  / Mensagem: #{@message} / Responde: #{@response}"
+				rescue
+					puts "Ha algum erro para o envio do SMS"
+				end
+			end
+
+
+			def only_text(value)
+				value.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').to_s
+			end
+
+			def only_number(value)
+				value.gsub(/\W/,'')
+			end
+
+			def default(value = nil)
+				self.default_params = default_params.merge(value).freeze if value
+				default_params
+			end
 		end
 	end
 end

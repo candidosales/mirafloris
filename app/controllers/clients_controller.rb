@@ -33,9 +33,9 @@ class ClientsController < ApplicationController
     @client = Client.new(params[:client])
     if @client.save
       
-      Zenvia.send({nome: @client.nome, telefone: @client.telefone})
-
+      ClientMessage.thanks_registration(@client)
       ClientMailer.thanks_registration(@client).deliver
+      
       flash[:notice] = 'Obrigado por se cadastrar!' 
       redirect_to root_path
     else

@@ -28,7 +28,12 @@ h4{
 	
 }
 
-
+.demo-2 .bg-img{
+	width:82%;	
+	top:0;
+	left:0;
+	padding:0 0 0 20%;
+}
 
 .message{
 	position: fixed;
@@ -478,6 +483,14 @@ footer{
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
 @media only screen and (min-width: 768px) {
+
+	.demo-2 .sl-slider-wrapper{
+		height: 300px;
+	}
+	.demo-2 .bg-img{
+		width: 82%;
+	}
+
 	.menu{
 		.logo{
 			width: 10%;
@@ -497,9 +510,16 @@ footer{
 		}
 	} 
 }
-
+@media only screen and (min-width: 979px) {
+	.demo-2 .sl-slider-wrapper{
+		height: 350px;
+	}
+}
 /* Used to alter styles for screens at least 1280px wide. */
 @media only screen and (min-width: 1280px) {
+	.demo-2 .sl-slider-wrapper{
+		height: 420px;
+	}
 	.menu{
 		.logo{
 			width: 16%;
@@ -520,7 +540,11 @@ footer{
 }
 
 /* Used to alter styles for screens at least 1440px wide. */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+	.demo-2 .sl-slider-wrapper{
+		height: 540px;
+	}
+}
 
 /* Apply styles to screens in landscape orientation */
 @media only screen and (orientation: landscape) {}
