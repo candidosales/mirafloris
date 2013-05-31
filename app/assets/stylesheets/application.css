@@ -14,6 +14,8 @@
   *= require slide/style
   *= require slide/custom
 
+ *= require socialcount-with-icons
+
  *= require "foundation" 
  *= require_self
  *= require_tree .

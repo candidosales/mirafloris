@@ -1,7 +1,7 @@
 
     $(document).foundation();
 
-    //$('#aviso').foundation('reveal', 'open');
+    $('#aviso').foundation('reveal', 'open');
 
     	$(function() {
 			
@@ -60,14 +60,14 @@
 
 
 
-		$('.top-bar ul li').click(function(){
+		$('.top-bar-section ul li').click(function(){
 			var element = $(this).attr('class');
 			$('body').scrollTo( '.'+element+'-move', 1000, {offset: {top:-50} });
 			activeItem(this);
 		});
 
 		function activeItem (value) {
-			$('.top-bar ul li').each(function() {
+			$('.top-bar-section ul li').each(function() {
 				$(this).removeClass('active');
 			});
 			$(value).addClass('active');

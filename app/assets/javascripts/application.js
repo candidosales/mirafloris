@@ -25,6 +25,8 @@
 
 //= require jquery.maskedinput.min
 
+//= require socialcount
+
 //= require gmaps
 //= require map
 

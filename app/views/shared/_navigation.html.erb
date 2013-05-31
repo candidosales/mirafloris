@@ -1,13 +1,8 @@
   <div class="large-12 columns menu no-padding">
      <%= image_tag("logo-4.png", :alt => "Logo Mirafloris", :class => 'logo') %>
     <div class="row">
-    <nav class="top-bar">
-      
-              <ul class="title-area">
-                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-              </ul>
-              
+    <nav>
+             
               <section class="top-bar-section">
                 <!-- Left Nav Section -->
                 <ul class="left">
@@ -23,14 +18,21 @@
                   <li class="realizacao" ><a href="#">REALIZAÇÃO</a></li>
                   
                 </ul>
-                <ul class="right social-media">
-                  <li>
-                    <div class="fb-like" data-href="https://www.facebook.com/MiraflorisTeresina" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                <ul class="right social-media socialcount"  data-url="http://www.mirafloris.com.br">
+                  <li class="facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/MiraflorisTeresina" title="Share on Facebook">
+                      <span class="icon icon-facebook"></span>
+                      <span class="count ">Curtir</span>
+                    </a>
                   </li>
-                  <li>
-                    <a href="https://twitter.com/Mirafloris" class="twitter-follow-button" data-show-count="false" data-lang="pt">Seguir @Mirafloris</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                  <li class="twitter ">
+                    <a href="https://twitter.com/intent/tweet?text=http://www.mirafloris.com.br" title="Share on Twitter">
+                      <span class="icon icon-twitter"></span>
+                      <span class="count  ">Tweetar</span>
+                    </a>
                   </li>
+
                 </ul>
                  
               </section>
