@@ -65,9 +65,6 @@
 						<h5>Cada condomínio terá:</h5>
 						<ul class="sub">
 							<li>
-								<p><strong>60,2 m²</strong> <small>de área do salão de lazer</small></p>
-							</li>
-							<li>
 								<p><strong>1</strong> <small>playground</small> </p>
 							</li>
 							<li>
@@ -133,12 +130,6 @@
 							 <li class="hide">
 							 	<a data-tooltip class="th radius has-tip tip-left" href="/assets/sala-estar.jpg">
 							 		<%= image_tag("sala-estar.jpg", :alt => "Sala de estar", :class => 'planta', :data => { :caption => 'Sala de estar'} ) %>
-
-							 	</a>
-							 </li>
-							 <li class="hide">
-							 	<a data-tooltip class="th radius has-tip tip-left" href="/assets/area-lazer.jpg">
-							 		<%= image_tag("area-lazer.jpg", :alt => "Área de lazer", :class => 'planta', :data => { :caption => 'Área de lazer'} ) %>
 
 							 	</a>
 							 </li>
@@ -412,10 +403,11 @@
 
 	<div id="aviso" class="reveal-modal medium">
 	  <h2>Melhore sua experiência</h2>
-	 
-	    	<%= image_tag("arrow.png", :class => 'left') %>
+	 <div class="content-modal">
+	    	<%= image_tag("arrow.png", :class => 'left arrow') %>
 	    	<h3 class="lead left">Permita seu navegador usar sua localização</h3>
 	    	<%= image_tag("local.png", :class => 'right') %>
+	 </div>
 	 
 	  <a class="close-reveal-modal">&#215;</a>
 	</div>

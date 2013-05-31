@@ -1,11 +1,16 @@
-  <div class="large-12 columns menu no-padding">
+
      <%= image_tag("logo-4.png", :alt => "Logo Mirafloris", :class => 'logo') %>
-    <div class="row">
-    <nav>
-             
-              <section class="top-bar-section">
-                <!-- Left Nav Section -->
-                <ul class="left">
+        <nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name"><h1><a href="#" >Mirafloris</a></h1></li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+   <ul class="left">
                 
                   <li class="novo-bairro"><a href="#">NOVO BAIRRO</a></li>
                   
@@ -18,7 +23,7 @@
                   <li class="realizacao" ><a href="#">REALIZAÇÃO</a></li>
                   
                 </ul>
-                <ul class="right social-media socialcount"  data-url="http://www.mirafloris.com.br">
+                  <ul class="right social-media socialcount"  data-url="http://www.mirafloris.com.br">
                   <li class="facebook">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.mirafloris.com.br" title="Share on Facebook">
                       <span class="icon icon-facebook"></span>
@@ -34,12 +39,11 @@
                   </li>
 
                 </ul>
-                 
-              </section>
 
-        </nav>
-        </div>
-  </div>
+  </section>
+</nav>
+
+
   <div class="large-12 columns message">
        <% flash.each do |name, msg| %>
         <% if msg.is_a?(String) %>
