@@ -67412,3 +67412,333 @@ Served asset /sala-estar.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
 Served asset /guarita.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-06-01 14:26:48 -0300
+Processing by Admin::ClientsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+  Rendered admin/clients/index.html.erb within layouts/admin (5.6ms)
+  Rendered shared/_navigation_admin.html.erb (1.0ms)
+Completed 200 OK in 316ms (Views: 91.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:26:49 -0300
+Served asset /logo-white.png - 304 Not Modified (32ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:26:49 -0300
+Compiled app.css  (218ms)  (pid 5450)
+Compiled application.css  (6ms)  (pid 5450)
+Served asset /application.css - 200 OK (282ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:26:49 -0300
+Served asset /admin/application.js - 304 Not Modified (153ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-06-01 14:27:23 -0300
+Processing by Admin::ClientsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mClient Load (0.1ms)[0m  SELECT `clients`.* FROM `clients` 
+  Rendered admin/clients/index.html.erb within layouts/admin (3.5ms)
+  Rendered shared/_navigation_admin.html.erb (3.2ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:27:23 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:27:23 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:27:23 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:27:23 -0300
+Served asset /favicon-original.png - 200 OK (2ms)
+
+
+Started GET "/admin/clients" for 127.0.0.1 at 2013-06-01 14:27:25 -0300
+Processing by Admin::ClientsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mClient Load (0.1ms)[0m  SELECT `clients`.* FROM `clients` 
+  Rendered admin/clients/index.html.erb within layouts/admin (2.3ms)
+  Rendered shared/_navigation_admin.html.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:27:25 -0300
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:27:26 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:27:26 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/admin/clients" for 127.0.0.1 at 2013-06-01 14:27:50 -0300
+Processing by Admin::ClientsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mClient Load (0.1ms)[0m  SELECT `clients`.* FROM `clients` 
+  Rendered admin/clients/index.html.erb within layouts/admin (1.9ms)
+  Rendered shared/_navigation_admin.html.erb (0.5ms)
+Completed 200 OK in 13ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:27:50 -0300
+Compiled app.css  (217ms)  (pid 5450)
+Compiled application.css  (7ms)  (pid 5450)
+Served asset /application.css - 200 OK (292ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:27:50 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:27:50 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:27:50 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-06-01 14:27:55 -0300
+Processing by Admin::ClientsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mClient Load (0.1ms)[0m  SELECT `clients`.* FROM `clients` 
+  Rendered admin/clients/index.html.erb within layouts/admin (1.7ms)
+  Rendered shared/_navigation_admin.html.erb (1.2ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:27:55 -0300
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:27:55 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:27:55 -0300
+Served asset /admin/application.js - 304 Not Modified (32ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qzOovKD5JqeZQbcIToNva5KgK6Gqy0rXqArYMOBvHhQ="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 187ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+  Rendered shared/_navigation.html.erb (0.8ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /application.js - 304 Not Modified (81ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /planta.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /logo-4.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /apartment-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /apartamento.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /cozinha.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /guarita.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /comercial.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /supermercado.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /area-verde.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /gasolina.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /hospital.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /policia.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /creche.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /escola.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /praca.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /sucesso.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /remanso.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /caixa.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /arrow.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /local.png - 304 Not Modified (39ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /2.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:27:58 -0300
+Served asset /3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Processing by Admin::ClientsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (6.8ms)
+  Rendered shared/_navigation_admin.html.erb (0.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-06-01 14:28:02 -0300
+Processing by Admin::ClientsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-06-01 14:28:03 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (6.7ms)
+  Rendered shared/_navigation_admin.html.erb (1.1ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:28:03 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:28:03 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:28:03 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-06-01 14:28:39 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (41.2ms)
+  Rendered shared/_navigation_admin.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:28:39 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/admin/application.js" for 127.0.0.1 at 2013-06-01 14:28:39 -0300
+Served asset /admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-white.png" for 127.0.0.1 at 2013-06-01 14:28:39 -0300
+Served asset /logo-white.png - 304 Not Modified (0ms)

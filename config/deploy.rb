@@ -46,7 +46,7 @@ namespace :deploy do
   end
 end
 
-after "deploy", "deploy:restart", "nginx:restart"
+#after "deploy", "deploy:restart", "nginx:restart"
 
 namespace :nginx do
 	desc "Install Nginx"
