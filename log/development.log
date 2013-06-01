@@ -64943,3 +64943,2472 @@ Served asset /local.png - 304 Not Modified (0ms)
 
 Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-05-31 20:39:08 -0300
 Served asset /favicon-original.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 13:39:59 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (58.4ms)
+  Rendered shared/_navigation.html.erb (0.6ms)
+Completed 200 OK in 337ms (Views: 195.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /application.css - 200 OK (259ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /application.js - 304 Not Modified (417ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /logo-4.png - 304 Not Modified (13ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /planta.jpg - 304 Not Modified (58ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:40:00 -0300
+Served asset /apto-1.png - 304 Not Modified (61ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /apartment-1.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /apartamento.jpg - 304 Not Modified (34ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /cozinha.jpg - 304 Not Modified (25ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (13ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /1.jpg - 304 Not Modified (27ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /2.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /3.jpg - 304 Not Modified (21ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /comercial.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /supermercado.png - 304 Not Modified (23ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /area-verde.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /gasolina.png - 304 Not Modified (36ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /hospital.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /guarita.jpg - 304 Not Modified (17ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /policia.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /creche.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /escola.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /praca.png - 304 Not Modified (46ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /remanso.png - 304 Not Modified (12ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /sucesso.jpg - 304 Not Modified (37ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (30ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /caixa.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /arrow.png - 304 Not Modified (43ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 13:40:01 -0300
+Served asset /local.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 13:40:02 -0300
+Served asset /favicon-original.png - 304 Not Modified (52ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:41:10 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:41:10 -0300
+Served asset /apto-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:42:44 -0300
+Served asset /apartamento.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:42:44 -0300
+Served asset /apto-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 13:42:46 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:42:46 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:42:46 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 13:42:46 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 13:42:46 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:42:47 -0300
+Served asset /apto-1.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:42:47 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 13:42:47 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 13:42:49 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 13:54:22 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (25.9ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 13:54:22 -0300
+Compiled app.css  (298ms)  (pid 3853)
+Compiled application.css  (19ms)  (pid 3853)
+Served asset /application.css - 200 OK (399ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (43ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /planta.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /remanso.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 13:54:23 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 13:54:24 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:00:06 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (19.9ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:00:06 -0300
+Compiled app.css  (183ms)  (pid 3853)
+Compiled application.css  (6ms)  (pid 3853)
+Served asset /application.css - 200 OK (300ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:00:06 -0300
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /planta.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /apartamento.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:00:08 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /supermercado.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /3.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:00:09 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:00:10 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:00:34 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (20.6ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:00:34 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:00:34 -0300
+Compiled app.css  (189ms)  (pid 3853)
+Compiled application.css  (7ms)  (pid 3853)
+Served asset /application.css - 200 OK (297ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /planta.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /apartamento.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /policia.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /praca.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:00:35 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:01:14 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:01:29 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (23.1ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:01:29 -0300
+Compiled app.css  (146ms)  (pid 3853)
+Compiled application.css  (6ms)  (pid 3853)
+Served asset /application.css - 200 OK (258ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /logo-4.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /planta.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /supermercado.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /1.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:01:30 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:01:56 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:02:19 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (14.8ms)
+  Rendered shared/_navigation.html.erb (0.8ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:02:19 -0300
+Compiled app.css  (165ms)  (pid 3853)
+Compiled application.css  (6ms)  (pid 3853)
+Served asset /application.css - 200 OK (272ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:02:19 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /logo-4.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /apartment-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /planta.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /area-verde.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:02:20 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:02:21 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:03:18 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+  Rendered shared/_navigation.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Compiled app.css  (142ms)  (pid 3853)
+Compiled application.css  (5ms)  (pid 3853)
+Served asset /application.css - 200 OK (248ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /logo-4.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /planta.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /supermercado.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:03:19 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /creche.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /1.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /3.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:03:20 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:03:37 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Compiled app.css  (113ms)  (pid 3853)
+Compiled application.css  (6ms)  (pid 3853)
+Served asset /application.css - 200 OK (219ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /logo-4.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /planta.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /sucesso.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /1.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:03:38 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:03:39 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+  Rendered shared/_navigation.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /application.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /planta.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /apto-1.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /area-verde.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /supermercado.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:04:18 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /1.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:04:19 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:04:20 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:04:25 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:06:36 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (20.4ms)
+  Rendered shared/_navigation.html.erb (0.7ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:06:36 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:06:36 -0300
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /logo-4.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /planta.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /apto-1.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /comercial.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /area-verde.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:06:37 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:06:38 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:06:43 -0300
+Served asset /apartamento.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:06:43 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:06:46 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:06:46 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:06:46 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:06:48 -0300
+Served asset /cozinha.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:06:48 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:06:48 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /logo-4.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /planta.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /apto-1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /creche.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /escola.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /caixa.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:07:32 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:07:33 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:10:29 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (27.5ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:10:29 -0300
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:10:29 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /apartment-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /planta.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /apto-1.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /comercial.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /1.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:10:30 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:10:31 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:11:42 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (26.4ms)
+  Rendered shared/_navigation.html.erb (0.7ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:11:42 -0300
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:11:42 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /planta.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /apto-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /supermercado.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /comercial.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /creche.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /1.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /3.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:11:43 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:11:44 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (32.0ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Compiled app.css  (145ms)  (pid 3853)
+Compiled application.css  (6ms)  (pid 3853)
+Served asset /application.css - 200 OK (247ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /logo-4.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /apto-1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /planta.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /supermercado.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /area-verde.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /1.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:12:46 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:12:47 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:13:35 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (23.7ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:13:35 -0300
+Compiled app.css  (133ms)  (pid 3853)
+Compiled application.css  (5ms)  (pid 3853)
+Served asset /application.css - 200 OK (243ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /application.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /planta.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /apto-1.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /1.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:13:36 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:13:43 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:13:48 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:13:48 -0300
+Served asset /apto-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:13:52 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:13:52 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:13:52 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:13:54 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:13:54 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:13:54 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:13:56 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:13:56 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:13:56 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:13:58 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:13:58 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:13:58 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:13:58 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:13:58 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:14:03 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:14:03 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:14:03 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /apartamento.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:14:04 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:14:06 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:14:06 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:14:06 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:14:07 -0300
+Served asset /apartamento.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:14:07 -0300
+Served asset /apto-1.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-01 14:14:58 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+  Rendered shared/_navigation.html.erb (0.8ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-01 14:14:58 -0300
+Compiled app.css  (124ms)  (pid 3853)
+Compiled application.css  (7ms)  (pid 3853)
+Served asset /application.css - 200 OK (208ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-01 14:14:58 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /logo-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /apto-1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /apartment-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /planta.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gasolina.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /gasolina.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comercial.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /comercial.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/area-verde.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /area-verde.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/hospital.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /hospital.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/policia.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /policia.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/supermercado.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /supermercado.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/creche.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /creche.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/praca.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /praca.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/escola.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /escola.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /remanso.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /1.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /sucesso.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /caixa.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /arrow.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-01 14:14:59 -0300
+Served asset /local.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-01 14:15:00 -0300
+Served asset /favicon-original.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:15:11 -0300
+Served asset /apartamento.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:15:11 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:15:12 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-01 14:15:12 -0300
+Served asset /apto-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:15:12 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:15:13 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-01 14:15:13 -0300
+Served asset /apartamento.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:15:13 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-01 14:15:14 -0300
+Served asset /cozinha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:15:14 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:15:14 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
+Served asset /guarita.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-01 14:15:15 -0300
+Served asset /guarita.jpg - 304 Not Modified (0ms)

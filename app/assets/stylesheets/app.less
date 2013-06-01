@@ -67,7 +67,10 @@ h4{
 .top-bar, .top-bar.expanded, .top-bar.expanded .title-area, .top-bar-section ul, .top-bar-section li a:not(.button){
 	background: @color;
 }
-
+.top-bar-section ul li.active > a{
+	background: @color-2;
+	border-bottom: 2px solid #fff;
+}
 .box-shadow-green{.box-shadow(0px 5px 0px #056C3E);}
 .box-shadow-purple{.box-shadow(0px 5px 0px #773991);}
 .top-bar-section > ul > .divider{
@@ -495,6 +498,16 @@ footer{
 	}
 	.content-modal{
 		padding: 5%;
+	}
+	.clearing-thumbs{
+		li{
+			float: left;
+			margin: 0 2% 2% 0;
+			img{
+				height: 120px;
+				background: #fff;
+			}
+		}
 	}
 }
 
@@ -1250,8 +1263,11 @@ footer{
 }
  /* Large desktop */
 @media (min-width: 1000px) { 
+	.top-bar-section ul.left{
+		margin-left: 6%;
+	}
 	.logo{
-		width:10%;
+		width: 14%;
 	}
 	#slider{
 		margin: 4.5% 0 0 0;
@@ -1404,8 +1420,11 @@ footer{
 
 /* Large desktop */
 @media (min-width: 1200px) { 
+	.top-bar-section ul.left{
+		margin-left: 10%;
+	}
 	.logo{
-		width:8%;
+		width: 16%;
 	}
 	#slider{
 		margin: 3.6% 0 0 0;
@@ -1580,8 +1599,11 @@ footer{
 
 /* Large desktop */
 @media (min-width: 1440px) { 
+	.top-bar-section ul.left{
+		margin-left: 10%;
+	}
 	.logo{
-		width: 7%;
+		width: 16%;
 	}
 	#slider{
 		margin: 0%;

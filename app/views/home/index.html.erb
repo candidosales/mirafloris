@@ -93,7 +93,7 @@
 					</li>
 					<li>
 						<p>
-							<strong>2</strong> <small>quartos</small>
+							<strong>2</strong> <small>dormitórios</small>
 						</p>
 					</li>
 					<li>
@@ -105,13 +105,13 @@
 						<ul  class="clearing-thumbs" data-clearing>
 							 <li>
 							 	<a data-tooltip class="th radius has-tip tip-left" title="Clique para ver a planta" href="/assets/apto-1.png">
-							 		<%= image_tag("apto-1.png", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento'} ) %>
+							 		<%= image_tag("apto-1.png", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento* 40,40 m² de área de piso '} ) %>
 
 							 	</a>
 							 </li>
 							 <li class="hide">
 							 	<a data-tooltip class="th radius has-tip tip-left" href="/assets/apartamento.jpg">
-							 		<%= image_tag("apartamento.jpg", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento'} ) %>
+							 		<%= image_tag("apartamento.jpg", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento* 40,40 m² de área de piso'} ) %>
 
 							 	</a>
 							 </li>
@@ -181,7 +181,7 @@
 				<%= image_tag "gasolina.png", :class => 'icon gasolina-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Posto de gasolina" %>
 				<%= image_tag "area-verde.png", :class => 'icon area-verde-2 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área verde" %>
 				<%= image_tag "comercial.png", :class => 'icon comercial-3 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
-				<%= image_tag "hospital.png", :class => 'icon hospital-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Hospital" %>
+				<%= image_tag "hospital.png", :class => 'icon hospital-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Posto de Saúde" %>
 				<%= image_tag "comercial.png", :class => 'icon comercial-4 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
 
 				<%= image_tag "comercial.png", :class => 'icon comercial-5 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
@@ -195,7 +195,7 @@
 				<%= image_tag "comercial.png", :class => 'icon comercial-12 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
 				<%= image_tag "comercial.png", :class => 'icon comercial-11 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
 				
-				<%= image_tag "policia.png", :class => 'icon comercial-14 has-tip tip-left', :data => {:tooltip => ""}, :title => "Polícia" %>
+				<%= image_tag "policia.png", :class => 'icon comercial-14 has-tip tip-left', :data => {:tooltip => ""}, :title => "Posto da Polícia" %>
 				<%= image_tag "comercial.png", :class => 'icon comercial-13 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
 				<%= image_tag "area-verde.png", :class => 'icon area-verde-3 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área verde" %>
 				<%= image_tag "area-verde.png", :class => 'icon area-verde-4 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área verde" %>
@@ -203,7 +203,7 @@
 				<%= image_tag "area-verde.png", :class => 'icon area-verde-6 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área verde" %>
 				<%= image_tag "comercial.png", :class => 'icon comercial-10 has-tip tip-left', :data => {:tooltip => ""}, :title => "Área comercial" %>
 
-				<%= image_tag "creche.png", :class => 'icon creche-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Creché" %>
+				<%= image_tag "creche.png", :class => 'icon creche-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Creche" %>
 				<%= image_tag "escola.png", :class => 'icon escola-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Escola" %>
 				<%= image_tag "praca.png", :class => 'icon praca-1 has-tip tip-left', :data => {:tooltip => ""}, :title => "Praça norte" %>
 				
@@ -418,7 +418,7 @@
 		  <div class="large-6 columns">
 		  	<ul>
 		  		<li>
-		  			<p>Água (caixa d'agua), energia e gás <strong>individualizada</strong></p>
+		  			<p>Água e energia  <strong>individualizada</strong></p>
 		  		</li>
 		  		<li>
 		  			<p>Todos os apartamentos <strong>permitem adaptação</strong> para pessoas com necessidade especial</p>
@@ -433,7 +433,7 @@
 		  			<p><strong>1</strong> BWC</p>
 		  		</li>
 		  		<li>
-		  			<p><strong>Varanda</strong></p>
+		  			<p><strong>1</strong>Varanda</p>
 		  		</li>
 		  	</ul>
 		  	
@@ -441,6 +441,50 @@
 		  <div class="large-6 columns">
 		  		<%= image_tag("apto-1.png", :class => 'left') %>
 		  </div>
+	  </div>
+	  <a class="close-reveal-modal">&#215;</a>
+	</div>
+	<div id="images-apt" class="reveal-modal medium">
+	  <h2> Imagens internas e externas</h2>
+	  <div class="row">
+	  	<ul  class="clearing-thumbs" data-clearing>
+		 <li >
+		 	<a class="th" title="Clique para ver a planta" href="/assets/apto-1.png">
+		 		<%= image_tag("apto-1.png", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento* 40,40 m² de área de piso '} ) %>
+
+		 	</a>
+		 </li>
+		 <li>
+		 	<a class="th" href="/assets/apartamento.jpg">
+		 		<%= image_tag("apartamento.jpg", :alt => "Planta do apartamento", :class => 'planta', :data => { :caption => 'Planta do apartamento* 40,40 m² de área de piso'} ) %>
+
+		 	</a>
+		 </li>
+		 <li>
+		 	<a class="th" href="/assets/cozinha.jpg">
+		 		<%= image_tag("cozinha.jpg", :alt => "Cozinha", :class => 'planta', :data => { :caption => 'Cozinha'} ) %>
+
+		 	</a>
+		 </li>
+		 <li>
+		 	<a class="th" href="/assets/quarto-casal.jpg">
+		 		<%= image_tag("quarto-casal.jpg", :alt => "Quarto casal", :class => 'planta', :data => { :caption => 'Quarto casal'} ) %>
+
+		 	</a>
+		 </li>
+		 <li>
+		 	<a class="th" href="/assets/sala-estar.jpg">
+		 		<%= image_tag("sala-estar.jpg", :alt => "Sala de estar", :class => 'planta', :data => { :caption => 'Sala de estar'} ) %>
+
+		 	</a>
+		 </li>
+		 <li>
+		 	<a class="th" href="/assets/guarita.jpg">
+		 		<%= image_tag("guarita.jpg", :alt => "Guarita", :class => 'planta', :data => { :caption => 'Guarita'} ) %>
+
+		 	</a>
+		 </li>
+	</ul>
 	  </div>
 	  <a class="close-reveal-modal">&#215;</a>
 	</div>
