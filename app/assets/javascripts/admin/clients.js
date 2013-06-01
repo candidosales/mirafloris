@@ -9,3 +9,9 @@ var tableToExcel = (function() {
     window.location.href = uri + base64(format(template, ctx))
   }
 })();
+
+function generateexcel(tableid) {
+ var table= document.getElementById(tableid);
+ var html = table.outerHTML;
+ window.open('data:application/vnd.ms-excel,' + escape(html));
+}
