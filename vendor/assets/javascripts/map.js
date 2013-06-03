@@ -153,6 +153,7 @@
 					});
 
 		    		 $('#distance').hide();
+		    		 $('#aviso').foundation('reveal', 'open');
 		  }
 	}
 		        

@@ -1,8 +1,6 @@
 
     $(document).foundation();
 
-    $('#aviso').foundation('reveal', 'open');
-
     	$(function() {
 			
 				var Page = (function() {
