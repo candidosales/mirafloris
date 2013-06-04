@@ -1,5 +1,4 @@
 class ClientsController < ApplicationController
-  include Sms
   # GET /clients
   # GET /clients.json
   def index
