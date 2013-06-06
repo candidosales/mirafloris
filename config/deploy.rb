@@ -9,7 +9,7 @@ require "bundler/capistrano"
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
-set :domain, "54.232.210.178"
+set :domain, "ec2-54-232-195-230.sa-east-1.compute.amazonaws.com"
 set :application, 'mirafloris'
 set :repository, "git@github.com:candidosales/#{application}.git"
 
