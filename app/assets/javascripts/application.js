@@ -30,5 +30,7 @@
 //= require gmaps
 //= require map
 
+//= require LightningTouch
+
 //= require_tree .
 

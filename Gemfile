@@ -45,6 +45,7 @@ group :production do
   gem 'unicorn'
 end
 
+gem 'simplecov', :require => false, :group => :test
 
 
 # To use ActiveModel has_secure_password
