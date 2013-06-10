@@ -78456,3 +78456,4 @@ Served asset /local.png - 304 Not Modified (0ms)
 
 Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-08 18:20:54 -0300
 Served asset /favicon-original.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
