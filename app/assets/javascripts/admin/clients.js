@@ -15,3 +15,11 @@ function generateexcel(tableid) {
  var html = table.outerHTML;
  window.open('data:application/vnd.ms-excel,' + escape(html));
 }
+
+
+$('#table-client').dataTable({
+            "oLanguage": {
+                "sUrl": "/assets/dataTables.pt-br.txt"
+            }
+
+        });

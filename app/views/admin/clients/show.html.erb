@@ -1,25 +1,65 @@
+<%= link_to 'Voltar', admin_clients_path, :class => 'button primary round' %> |
+<%= link_to 'Editar', edit_admin_client_path(@client), :class => 'button primary round' %> 
+
 <p id="notice"><%= notice %></p>
 
 <p>
   <b>Nome:</b>
   <%= @client.nome %>
 </p>
-
 <p>
-  <b>Email:</b>
+  <b>CPF:</b>
+  <%= @client.cpf %>
+</p>
+<p>
+  <b>E-mail:</b>
   <%= @client.email %>
 </p>
-
+<p>
+  <b>Idade:</b>
+  <%= @client.idade %>
+</p>
+<p>
+  <b>Sexo:</b>
+  <%= @client.sexo == 'm' ? 'Masculino' : 'Feminino' %>
+</p>
 <p>
   <b>Cidade:</b>
   <%= @client.cidade %>
 </p>
-
 <p>
   <b>Telefone:</b>
   <%= @client.telefone %>
 </p>
+<p>
+  <b>Renda Familiar:</b>
+  <%= renda_familiar(@client.renda_familiar) %>
+</p>
+<p>
+  <b>Estado Civil:</b>
+  <%= @client.estado_civil %>
+</p>
+<% if @client.estado_civil == "casado" %>
+<hr/>
+<h2>Conjugue</h2>
+<p>
+  <b>Nome:</b>
+  <%= @client.conjugue_nome %>
+</p>
+<p>
+  <b>CPF:</b>
+  <%= @client.conjugue_cpf %>
+</p>
+<p>
+  <b>E-mail:</b>
+  <%= @client.conjugue_email %>
+</p>
+<p>
+  <b>Sexo:</b>
+  <%= @client.conjugue_sexo == 'm' ? 'Masculino' : 'Feminino' %>
+</p>
+<% end %>
+<%= link_to 'Voltar', admin_clients_path, :class => 'button primary round' %> |
+<%= link_to 'Editar', edit_admin_client_path(@client), :class => 'button primary round' %> 
 
 
-<%= link_to 'Editar', edit_admin_client_path(@client), :class => 'button primary round' %> |
-<%= link_to 'Voltar', admin_clients_path, :class => 'button primary round' %>

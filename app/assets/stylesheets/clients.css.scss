@@ -1,3 +1,31 @@
 // Place all the styles related to the clients controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.dataTables_wrapper{
+	margin: 2% 0;
+}
+.dataTables_info{
+	font-size:80%;
+	padding: 1% 0;
+	width: 100%
+}
+
+.dataTables_length{
+	select{
+		width: 20%;
+	}
+}
+
+.dataTables_filter{
+	input{
+		float: left;
+		width: 40%;
+	}
+}
+
+table.dataTable{
+	td{
+		padding: 15px;
+	}
+}

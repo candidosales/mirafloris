@@ -1,17 +1,9 @@
 <h1>Listagem  de <%= @clients.count %> cliente(s)</h1>
+<%= link_to 'Novo Cliente', new_admin_client_path, :class => 'button success round' %>
+<input type="button" onclick="generateexcel('table-client')" value="Exportar para Excel" class="button success round">
 
-<table id="testTable" >
-  <tr>
-    <th class="cliente" colspan="9">
-      Cliente
-    </th>
-    <th class="conjug" colspan="4">
-      Cônjugue
-    </th>
-    <th class="acoes" colspan="2">
-      Ações
-    </th>
-  </tr>
+<table id="table-client" >
+  <thead>
   <tr>
     <th>Nome</th>
     <th>CPF</th>
@@ -26,13 +18,12 @@
     <th>CPF</th>
     <th>Email</th>
     <th>Sexo</th>
-    <th></th>
-    <th></th>
   </tr>
-
+</thead>
+<tbody>
 <% @clients.each do |client| %>
   <tr>
-    <td><%= link_to client.nome, [:admin, client]  %></td>
+    <td><%= link_to  client.nome, [:admin, client] , :title => 'Visualizar Cliente' %></td>
     <td><%= client.cpf %></td>
     <td><%= client.email %></td>
     <td><%= client.idade %></td>
@@ -46,13 +37,12 @@
     <td><%= client.conjugue_cpf %></td>
     <td><%= client.conjugue_email %></td>
     <td><%= client.conjugue_sexo == 'm' ? 'Masculino' : 'Feminino' %></td>
-    <td><%= link_to 'Editar', edit_admin_client_path(client) , :class => "button round"%></td>
-    <td><%= link_to 'Deletar', client, method: :delete, data: { confirm: 'Você tem certeza?' }, :class => 'button alert round' %></td>
   </tr>
 <% end %>
+</tbody>
 </table>
 <br />
 
 <%= link_to 'Novo Cliente', new_admin_client_path, :class => 'button success round' %>
-<input type="button" onclick="generateexcel('testTable')" value="Exportar para Excel" class="button success round">
+<input type="button" onclick="generateexcel('table-client')" value="Exportar para Excel" class="button success round">
 

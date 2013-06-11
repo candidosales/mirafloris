@@ -10,16 +10,12 @@
  *
  *= require normalize 
 
-  *= require slide/demo
-  *= require slide/style
-  *= require slide/custom
-
-  *= require socialcount-with-icons
-
   *= require jquery.dataTables
   *= require demo_table
+  *= require clients
 
  *= require "foundation" 
+ *= require app
  *= require_self
  *= require_tree .
  */

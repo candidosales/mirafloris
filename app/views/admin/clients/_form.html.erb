@@ -32,57 +32,61 @@
                <div class="large-3 columns">
                 <label class="margin-label">Idade</label>
                 <label for="idade" class="small">
-                <%= f.radio_button :idade, '18-25', :checked => true %>
+                <%= f.radio_button :idade, '18-25', :checked => true, :class => "hidden-field" %>
                   <span class="custom radio checked"></span> 
                 18 - 25 anos</label>
                 <label for="idade" class="small">
-                <%= f.radio_button :idade, '26-30'%>
+                <%= f.radio_button :idade, '26-30', :class => "hidden-field"%>
                   <span class="custom radio "></span> 
                 26 - 35 anos</label>
                 <label for="idade" class="small">
-                <%= f.radio_button :idade, '36-50'%>
+                <%= f.radio_button :idade, '36-50', :class => "hidden-field"%>
                   <span class="custom radio "></span> 
                 36 - 50 anos</label>
                 <label for="idade" class="small">
-                <%= f.radio_button :idade, '+50'%>
+                <%= f.radio_button :idade, '+50', :class => "hidden-field"%>
                   <span class="custom radio "></span> 
                 + 50 anos</label>
                </div>
                <div class="large-3 columns">
                 <label class="margin-label">Sexo</label>
                 <label for="sexo" class="small">
-                <%= f.radio_button :sexo, 'm', :checked => true %>
+                <%= f.radio_button :sexo, 'm', :checked => true, :class => "hidden-field" %>
                   <span class="custom radio checked"></span> 
                 Masculino</label>
                 <label for="sexo" class="small">
-                <%= f.radio_button :sexo, 'f'%>
+                <%= f.radio_button :sexo, 'f', :class => "hidden-field"%>
                   <span class="custom radio "></span> 
                 Feminino</label>
                </div>
                <div class="large-3 columns">
                 <label class="margin-label">Estado Civil</label>
                 <label for="estado_civil" class="small">
-                <%= f.radio_button :estado_civil, 'solteiro', :checked => true, :class => 'estado_civil' %>
+                <%= f.radio_button :estado_civil, 'solteiro', :checked => true, :class => 'estado_civil', :class => "hidden-field" %>
                   <span class="custom radio checked"></span> 
                 Solteiro</label>
                 <label for="estado_civil" class="small">
-                <%= f.radio_button :estado_civil, 'casado', :class => 'estado_civil'%>
+                <%= f.radio_button :estado_civil, 'casado', :class => 'estado_civil', :class => "hidden-field"%>
                   <span class="custom radio "></span> 
                 Casado</label>
                </div>
                <div class="large-3 columns">
                 <label class="margin-label">Renda Familiar</label>
                 <label for="renda_familiar" class="small">
-                <%= f.radio_button :renda_familiar, '3', :checked => true %>
+                <%= f.radio_button :renda_familiar, '3', :checked => true, :class => "hidden-field" %>
                   <span class="custom radio checked"></span> 
                 Até 3 salários</label>
                 <label for="renda_familiar" class="small">
-                <%= f.radio_button :renda_familiar, '3-6'%>
+                <%= f.radio_button :renda_familiar, '3-6', :class => "hidden-field"%>
                   <span class="custom radio"></span> 
                 De 3 à 6 salários</label>
+                <label for="renda_familiar" class="small">
+                <%= f.radio_button :renda_familiar, '+6', :class => "hidden-field"%>
+                  <span class="custom radio"></span> 
+                 + 6 salários</label>
                </div>
            </div>
-          <div class="large-12 columns conjugue">
+           <hr/>
             <h4>Cônjugue</h4>
            <div class="row">
                <div class="large-12 columns">
@@ -104,16 +108,15 @@
                <div class="large-6 columns">
                 <label class="margin-label">Sexo</label>
                 <label for="sexo" class="small">
-                <%= f.radio_button :conjugue_sexo, 'm' %>
+                <%= f.radio_button :conjugue_sexo, 'm', :class => "hidden-field" %>
                   <span class="custom radio"></span> 
                 Masculino</label>
                 <label for="sexo" class="small">
-                <%= f.radio_button :conjugue_sexo, 'f', :checked => true %>
+                <%= f.radio_button :conjugue_sexo, 'f', :checked => true, :class => "hidden-field" %>
                   <span class="custom radio checked"></span> 
                 Feminino</label>
                </div>
             </div>
-          </div>
           <div class="row">
             <div class="large-4 large-centered columns">
               <%= f.button "Enviar", :class => "large button success round expand"%>

@@ -1,6 +1,8 @@
-<h1>Editing client</h1>
+<h1>Editando <%= @client.first_name %></h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @client %> |
-<%= link_to 'Back', clients_path %>
+<%= link_to 'Visualizar', [:admin, @client]  , :class => 'button  round'%> |
+<%= link_to 'Voltar', admin_clients_path, :class => 'button  round' %>
+
+<%= link_to 'Deletar', @client, method: :delete, data: { confirm: 'Você tem certeza?' }, :class => 'button alert round' %>
