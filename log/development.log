@@ -78457,3 +78457,116 @@ Served asset /local.png - 304 Not Modified (0ms)
 Started GET "/assets/favicon-original.png" for 127.0.0.1 at 2013-06-08 18:20:54 -0300
 Served asset /favicon-original.png - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-11 18:57:51 -0300
+Processing by HomeController#index as HTML
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (41.0ms)
+  Rendered shared/_navigation.html.erb (0.6ms)
+Completed 200 OK in 372ms (Views: 141.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-11 18:57:52 -0300
+Served asset /application.js - 304 Not Modified (1012ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-11 18:57:53 -0300
+Served asset /application.css - 304 Not Modified (697ms)
+
+
+Started GET "/assets/mirafloris-1.png" for 127.0.0.1 at 2013-06-11 18:57:54 -0300
+Served asset /mirafloris-1.png - 304 Not Modified (72ms)
+
+
+Started GET "/assets/logo-4.png" for 127.0.0.1 at 2013-06-11 18:57:54 -0300
+Served asset /logo-4.png - 304 Not Modified (31ms)
+
+
+Started GET "/assets/cozinha.jpg" for 127.0.0.1 at 2013-06-11 18:57:54 -0300
+Served asset /cozinha.jpg - 304 Not Modified (67ms)
+
+
+Started GET "/assets/planta.jpg" for 127.0.0.1 at 2013-06-11 18:57:54 -0300
+Served asset /planta.jpg - 304 Not Modified (85ms)
+
+
+Started GET "/assets/sala-estar.jpg" for 127.0.0.1 at 2013-06-11 18:57:54 -0300
+Served asset /sala-estar.jpg - 304 Not Modified (15ms)
+
+
+Started GET "/assets/apartment-1.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /apartment-1.png - 304 Not Modified (19ms)
+
+
+Started GET "/assets/apartamento.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /apartamento.jpg - 304 Not Modified (27ms)
+
+
+Started GET "/assets/apto-1.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /apto-1.png - 304 Not Modified (47ms)
+
+
+Started GET "/assets/icon-s8df06ae4f6.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /icon-s8df06ae4f6.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /1.jpg - 304 Not Modified (64ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /2.jpg - 304 Not Modified (52ms)
+
+
+Started GET "/assets/guarita.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /guarita.jpg - 304 Not Modified (31ms)
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /3.jpg - 304 Not Modified (142ms)
+
+
+Started GET "/assets/planta-1.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /planta-1.jpg - 200 OK (75ms)
+
+
+Started GET "/assets/twitter-bird-light-bgs-1.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /twitter-bird-light-bgs-1.png - 304 Not Modified (63ms)
+
+
+Started GET "/assets/facebook-1.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /facebook-1.png - 304 Not Modified (79ms)
+
+
+Started GET "/assets/logo-2.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /logo-2.png - 304 Not Modified (65ms)
+
+
+Started GET "/assets/quarto-casal.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /quarto-casal.jpg - 304 Not Modified (50ms)
+
+
+Started GET "/assets/remanso.png" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /remanso.png - 304 Not Modified (27ms)
+
+
+Started GET "/assets/sucesso.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /sucesso.jpg - 304 Not Modified (42ms)
+
+
+Started GET "/assets/caixa.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /caixa.jpg - 304 Not Modified (36ms)
+
+
+Started GET "/assets/minha-casa.jpg" for 127.0.0.1 at 2013-06-11 18:57:55 -0300
+Served asset /minha-casa.jpg - 304 Not Modified (134ms)
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2013-06-11 18:57:56 -0300
+Served asset /arrow.png - 304 Not Modified (156ms)
+
+
+Started GET "/assets/local.png" for 127.0.0.1 at 2013-06-11 18:57:56 -0300
+Served asset /local.png - 304 Not Modified (20ms)
