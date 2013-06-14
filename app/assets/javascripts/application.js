@@ -16,15 +16,9 @@
 //= require jquery_ujs
 //= require "foundation"
 
-//= require slide/modernizr.custom.79639.js
-//= require slide/jquery.ba-cond.min
-//= require slide/jquery.slitslider
-
-
+//= require custom.modernizr.js
 //= require jquery.scrollTo-min
-
 //= require jquery.maskedinput.min
-
 //= require socialcount
 
 //= require gmaps

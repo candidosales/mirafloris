@@ -1,34 +1,15 @@
-	<div class="large-12 columns demo-2 no-padding">
-		       <div id="slider" class="sl-slider-wrapper">
-
-				<div class="sl-slider">
-				
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-1"></div>
-
-						</div>
-					</div>
-					
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-2"></div>
-						</div>
-					</div>
-					
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-3"></div>
-						</div>
-					</div>
-				</div><!-- /sl-slider -->
-
-				<nav id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-				</nav>
-			</div><!-- /slider-wrapper -->
+	<div class="large-12 columns no-padding">
+		    <ul data-orbit data-options="timer_speed:1500; bullets:false; stack_on_small:false;">
+			  <li>
+			    <%= image_tag("1.jpg") %>
+			  </li>
+			  <li>
+			    <%= image_tag("2.jpg") %>
+			  </li>
+			  <li>
+			    <%= image_tag("3.jpg") %>
+			  </li>
+			</ul>
 	</div>
 	<div id="novo-bairro" class="large-12 columns wrapper bg-6 no-padding">
 		<div id="fade-it" class="large-12 columns ">
@@ -40,7 +21,7 @@
 				</figure>
 			</div>
 			<div class="info-l description d-1">
-				<h4><%= image_tag("mirafloris-1.png", :class => 'mirafloris') %>  Mirafloris</h4>
+				<h4><%= image_tag("mirafloris-1.png", :class => 'mirafloris') %>  MIRAFLORIS</h4>
 				<ul>
 					<li>
 						<p>

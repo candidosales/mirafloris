@@ -10,10 +10,6 @@
  *
  *= require normalize 
 
-  *= require slide/demo
-  *= require slide/style
-  *= require slide/custom
-
   *= require socialcount-with-icons
 
   *= require jquery.dataTables

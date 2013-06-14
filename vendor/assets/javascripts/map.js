@@ -153,10 +153,15 @@
 					});
 
 		    		 $('#distance').hide();
-		    		 $('#aviso').foundation('reveal', 'open');
+		    		 aviso();
+		    		 
 		  }
 	}
 		        
+
+		        function aviso(){
+		        	var a=localStorage.getItem("fired");"1"!=a&&($('#aviso').foundation('reveal', 'open'),localStorage.setItem("fired","1"))
+		        }
 
 		 
 
